@@ -1,0 +1,297 @@
+cv:
+  name: Gatlen Culp
+  location: Cambridge, Massachusetts
+  email: contact@gatlen.com
+  phone: +1 (843) 754-0521
+  website: http://gatlen.me
+  social_networks:
+    - network: LinkedIn
+      username: gatlenculp
+    - network: GitHub
+      username: GatlenCulp
+  sections:
+    education:
+      - institution: Massachusetts Institute of Technology
+        area: Computer Science and Engineering
+        degree: BS
+        start_date: 2021-09
+        end_date: present
+        location: Cambridge, MA
+        highlights:
+          - "Expected graduation: May 2025"
+    experience:
+      - company: METR
+        position: Evaluations/SWE Contractor
+        date: ""
+        start_date: 2024-09
+        end_date: 2024-12
+        location: Remote
+        summary: ""
+        highlights:
+          - Developed CLI tools, evaluation templates, and installers for Vivaria, a platform used by METR to conduct AI capability and risk evaluations
+          - Enhanced documentation for rapid adoption and created a Python-based unified installation system replacing legacy shell scripts
+          - Improved reliability and maintainability while adhering to project standards with comprehensive testing suites and technical documentation
+      - company: MIT AI Alignment (MAIA)
+        position: Director of Operations
+        date: ""
+        start_date: 2023-02
+        end_date: 2024-06
+        location: Cambridge, MA
+        summary: ""
+        highlights:
+          - Led operations for 300+ people across 24+ programs, managing facility logistics, interior design, digital infrastructure, and program operations
+          - Created MopMan automation tool, saving 10 hours/week across 3 AI safety groups
+          - Halved expenses via office relocation while maintaining quality standards
+          - Oversaw management of Amazon Web Services for MAIA and HAIST, supporting research in fine-tuning large language models
+      - company: Stanford Existential Risks Initiative & MIT Algorithmic Alignment Group
+        position: Machine Learning Researcher
+        date: ""
+        start_date: 2022-06
+        end_date: 2022-10
+        location: Cambridge, MA
+        summary: ""
+        highlights:
+          - Designed and implemented a technique with PyTorch and GPT-2 fine-tuning to autonomously uncover prompts that result in bad responses from language models
+          - Contributed to team discussion, trained and selected models for the pipeline, and developed detailed diagrams
+          - "Published research paper 'Explore, Establish, Exploit: Red Teaming Language Models from Scratch' (https://arxiv.org/abs/2306.09442)"
+      - company: MIT's Civic Data Design Lab (CDDL)
+        position: Full Stack Web Developer
+        date: ""
+        start_date: 2022-05
+        end_date: 2022-06
+        location: Cambridge, MA
+        summary: ""
+        highlights:
+          - Delivered a full-stack web platform and WhatsApp interface in under three weeks
+          - Implemented contribution form web page with React, SASS, REST API, and Node
+          - Created WhatsApp informational messaging interface with Twilio
+          - Developed script to compress image sizes on MongoDB
+      - company: Effective Altruism MIT
+        position: Executive Officer
+        date: ""
+        start_date: 2021-12
+        end_date: 2022-05
+        location: Cambridge, MA
+        summary: ""
+        highlights:
+          - Connected students with impactful careers and raised awareness on neglected global issues
+          - Gave presentations, managed office, and executed educational and philosophical programs
+          - Responsible for four to twelve significantly altered career plans
+      - company: Jungle Robotics FRC Team 3627
+        position: Team Manager & Lead Software Engineer
+        date: ""
+        start_date: 2017-08
+        end_date: 2021-08
+        location: Sarasota, FL
+        summary: ""
+        highlights:
+          - Managed three first-year programmers in programming a 125lb robot in Python
+          - Oversaw administrative parts of 20-person team including fundraising, workshops, meetings, design and construction
+          - Doubled team membership and taught STEM through local youth programs
+      - company: Culp Computer Services LLC
+        position: Founder & Tech Care Specialist
+        date: ""
+        start_date: 2020-06
+        end_date: 2021-08
+        location: North Port, FL
+        summary: ""
+        highlights:
+          - Founded a small-scale business offering personal computer solutions from home theater to computer repair
+          - Provided specialty care and service to around two dozen clients
+          - Developed branding, marketed to the local area, and created a website for the company
+    projects:
+      - name: MantisAI DevOps Engineer
+        date: ""
+        start_date: 2023-01
+        end_date: 2023-12
+        location: MIT Computational Biology Lab
+        summary: Engineered NetworkX-based graph visualization system and DevOps infrastructure for MantisAI
+        highlights:
+          - Architected CI/CD pipeline with GitHub Actions, PyTest, Docker, and AWS deployment with robust security controls
+          - Led PostgreSQL migration alongside comprehensive code and documentation refactoring
+          - Created technical demonstrations and identified critical security vulnerabilities requiring remediation
+      - name: LLM Red Teaming Research
+        date: ""
+        start_date: 2022-06
+        end_date: 2022-10
+        location: MIT
+        summary: Research project on autonomous discovery of problematic model behaviors
+        highlights:
+          - "Published paper 'Explore, Establish, Exploit: Red Teaming Language Models from Scratch' available at https://arxiv.org/abs/2306.09442"
+          - "Code repository at https://github.com/thestephencasper/explore_establish_exploit_llms"
+          - "Created the CommonClaim dataset at https://github.com/Algorithmic-Alignment-Lab/CommonClaim"
+    skills:
+      - label: Technical Skills
+        details: Python (Advanced), Project Management (Advanced), Operations Management (Intermediate), Git (Novice), JavaScript (Intermediate), React.js (Novice), PyTorch (Novice), AWS (Novice)
+      - label: Web Development
+        details: HTML5, CSS, SASS, MongoDB, Twilio, Node.js
+      - label: Soft Skills
+        details: Communication, Emotional Intelligence, Education, Project Management, Leadership, Organization
+    certifications_and_awards:
+      - bullet: AWS Certified Cloud Practitioner, Amazon Web Services (AWS), Dec 2023 - Dec 2026
+      - bullet: Autodesk Certified User - Inventor
+      - bullet: OSHA 10-Hour General Industry, CareerSafe Online, Feb 2020
+      - bullet: State-Level Competitive Programming Awards (2nd and 3rd place), Technology Student Association, 2018-2019
+      - bullet: "'Meritorious' Award, High School Math Contest in Modeling (HiMCM)"
+      - bullet: TryHackMe Badges and Experience
+    test_scores:
+      - bullet: SAT - 1520/1600, 2020
+      - bullet: ACT - 34/36, 2020
+      - bullet: SAT Subject Tests - Math Level 2 (800/800), Physics (800/800), 2020
+    extracurricular_activities:
+      - bullet: "There are 7 unique entry types in RenderCV: *BulletEntry*, *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*, *PublicationEntry*, and *OneLineEntry*."
+      - bullet: Each entry type has a different structure and layout. This document demonstrates all of them.
+    numbered_entries:
+      - number: This is a numbered entry.
+      - number: This is another numbered entry.
+      - number: This is the third numbered entry.
+    reversed_numbered_entries:
+      - reversed_number: This is a reversed numbered entry.
+      - reversed_number: This is another reversed numbered entry.
+      - reversed_number: This is the third reversed numbered entry.
+design:
+  theme: classic
+  page:
+    size: us-letter
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+    show_page_numbering: true
+    show_last_updated_date: true
+  colors:
+    text: rgb(0, 0, 0)
+    name: rgb(0, 79, 144)
+    connections: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    links: rgb(0, 79, 144)
+    last_updated_date_and_page_numbering: rgb(128, 128, 128)
+  text:
+    font_family: Source Sans 3
+    font_size: 10pt
+    leading: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: false
+    use_external_link_icon: true
+  header:
+    name_font_family: Source Sans 3
+    name_font_size: 30pt
+    name_bold: true
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.7cm
+    vertical_space_between_connections_and_first_section: 0.7cm
+    horizontal_space_between_connections: 0.5cm
+    connections_font_family: Source Sans 3
+    separator_between_connections: ""
+    use_icons_for_connections: true
+    alignment: center
+  section_titles:
+    type: with-full-line
+    font_family: Source Sans 3
+    font_size: 1.4em
+    bold: true
+    small_caps: false
+    line_thickness: 0.5pt
+    vertical_space_above: 0.5cm
+    vertical_space_below: 0.3cm
+  entries:
+    date_and_location_width: 4.15cm
+    left_and_right_margin: 0.2cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 1.2em
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: •
+    top_margin: 0.25cm
+    left_margin: 0.4cm
+    vertical_space_between_highlights: 0.25cm
+    horizontal_space_between_bullet_and_highlight: 0.5em
+    summary_left_margin: 0cm
+  entry_types:
+    one_line_entry:
+      template: "**LABEL:** DETAILS"
+    education_entry:
+      main_column_first_row_template: "**INSTITUTION**, AREA"
+      degree_column_template: "**DEGREE**"
+      degree_column_width: 1cm
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        LOCATION
+        DATE
+    normal_entry:
+      main_column_first_row_template: "**NAME**"
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        LOCATION
+        DATE
+    experience_entry:
+      main_column_first_row_template: "**COMPANY**, POSITION"
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        LOCATION
+        DATE
+    publication_entry:
+      main_column_first_row_template: "**TITLE**"
+      main_column_second_row_template: |-
+        AUTHORS
+        URL (JOURNAL)
+      main_column_second_row_without_journal_template: |-
+        AUTHORS
+        URL
+      main_column_second_row_without_url_template: |-
+        AUTHORS
+        JOURNAL
+      date_and_location_column_template: DATE
+locale:
+  language: en
+  phone_number_format: national
+  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  last_updated_date_template: Last updated in TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: –
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - June
+    - July
+    - Aug
+    - Sept
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+rendercv_settings:
+  date: "2024-04-05"
+  render_command: null
+  bold_keywords: []

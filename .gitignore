@@ -2,6 +2,14 @@
 # PROJECT-SPECIFIC IGNORES                                                       #
 #################################################################################
 
+# Old info and cached data
+old-info/
+**/old-info/
+
+# RenderCV output files
+rendercv_output/
+**/rendercv_output/
+
 # Test cache
 manual_test/
 

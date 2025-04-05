@@ -14,9 +14,10 @@ DOCS_PORT ?= 8000
 .DEFAULT_GOAL := help
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━ Project Rules ━━━━━━━━━━━━━━━━━━━━━━━━━ #
+.PHONY: run
 
-# Write your custom rules here
-
+run:
+	rendercv render "Gatlen_Culp_CV.yaml"
 
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Utilities ━━━━━━━━━━━━━━━━━━━━━━━━━━━ #

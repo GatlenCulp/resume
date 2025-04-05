@@ -35,19 +35,19 @@ repos:
     hooks:
       - id: ruff-format
         name: "🐍 python · Format with Ruff"
-      # 
+      #
       - id: ruff
         name: "🐍 python · Lint and perform safe auto-fixes with Ruff"
         args: [--fix]
-      # 
+      #
 
-  # 
+  #
   - repo: https://github.com/RobertCraigie/pyright-python
     rev: v1.1.391
     hooks:
       - id: pyright
         name: "🐍 python · Check types"
-  # 
+  #
 
   - repo: https://github.com/abravalheri/validate-pyproject
     rev: v0.23
@@ -86,17 +86,17 @@ repos:
           - mdformat-frontmatter
           - ruff
 
-  # 
-  - repo: https://github.com/markdownlint/markdownlint
-    rev: v0.12.0
-    hooks:
-      - id: markdownlint
-        name: "📝 markdown · Lint markdown"
-  # 
+  #
+  # - repo: https://github.com/markdownlint/markdownlint
+  #   rev: v0.12.0
+  #   hooks:
+  #     - id: markdownlint
+  #       name: "📝 markdown · Lint markdown"
+  #
 
   ### Shell ###
 
-  # 
+  #
   - repo: https://github.com/shellcheck-py/shellcheck-py
     rev: v0.10.0.1
     hooks:
@@ -108,7 +108,7 @@ repos:
     hooks:
       - id: bashate
         name: "🐚 shell · Check shell script code style"
-  # 
+  #
 
   ### Makefile ###
   - repo: https://github.com/mrtazz/checkmake.git
@@ -123,10 +123,10 @@ repos:
     hooks:
       - id: sqlfluff-fix
         name: "📊 SQL · Attempts to fix rule violations."
-      # 
+      #
       - id: sqlfluff-lint
         name: "📊 SQL · Lint SQL code files"
-    # 
+    #
 
   ### Notebooks ###
   - repo: https://github.com/nbQA-dev/nbQA
@@ -143,11 +143,11 @@ repos:
           - mdformat-ruff
           - mdformat-frontmatter
           - ruff
-      # 
-      # 
+      #
+      #
       - id: nbqa-mypy
         name: "📓 notebook · Type-check cells"
-    # 
+    #
 
   ### PNG Images ###
   - repo: https://github.com/shssoichiro/oxipng
@@ -167,22 +167,22 @@ repos:
         additional_dependencies:
           - prettier@3.4.2
 
-  # 
+  #
   # ----------------------------- ⚡️ uv Build Tools ---------------------------- #
   # This helps ensure cross-compatibility with people who don't wish to use uv
   - repo: https://github.com/astral-sh/uv-pre-commit
     # uv version.
     rev: 0.5.27
     hooks:
-      # 
+      #
       - id: uv-sync
         name: "⚡️ uv · Sync dependencies with uv"
-      # 
+      #
       - id: uv-lock
         name: "⚡️ uv · Update dependency lockfile"
       - id: uv-export
         name: "⚡️ uv · Export dependencies to requirements.txt"
-  # 
+  #
 
   # ---------------------------- 📁 Filesystem Tools --------------------------- #
 
@@ -210,12 +210,12 @@ repos:
       - id: check-added-large-files
         name: "🌳 git · Block large file commits"
         args: ["--maxkb=5000"]
-      # 
-      - id: no-commit-to-branch
-        alias: protect-main
-        name: "🌳 git · Protect main branches"
-        args: ["--branch", "main", "--branch", "master"]
-      # 
+      #
+      # - id: no-commit-to-branch
+      #   alias: protect-main
+      #   name: "🌳 git · Protect main branches"
+      #   args: ["--branch", "main", "--branch", "master"]
+      #
 
   # ---------------------------------------------------------------------------- #
   #                            📝 Commit Message Hooks                           #
@@ -236,23 +236,23 @@ repos:
   #                             🧪 Fast Tests (Local)                            #
   # ---------------------------------------------------------------------------- #
 
-  - repo: local
-    hooks:
-      - id: pytest-collect
-        name: 🧪 test · Validate test formatting
-        entry: ./.venv/bin/pytest tests
-        language: system
-        types: [python]
-        args: ["--collect-only"]
-        pass_filenames: false
-        always_run: true
-      # 
-      - id: pytest-fast
-        name: 🧪 test · Run fast tests
-        entry: ./.venv/bin/pytest tests
-        language: system
-        types: [python]
-        args: ["--max-timeout=3"]
-        pass_filenames: false
-        always_run: true
-      # 
+  # - repo: local
+  #   hooks:
+  #     - id: pytest-collect
+  #       name: 🧪 test · Validate test formatting
+  #       entry: ./.venv/bin/pytest tests
+  #       language: system
+  #       types: [python]
+  #       args: ["--collect-only"]
+  #       pass_filenames: false
+  #       always_run: true
+  #     #
+  #     - id: pytest-fast
+  #       name: 🧪 test · Run fast tests
+  #       entry: ./.venv/bin/pytest tests
+  #       language: system
+  #       types: [python]
+  #       args: ["--max-timeout=3"]
+  #       pass_filenames: false
+  #       always_run: true
+  #     #
