@@ -42,11 +42,11 @@ repos:
       #
 
   #
-  - repo: https://github.com/RobertCraigie/pyright-python
-    rev: v1.1.391
-    hooks:
-      - id: pyright
-        name: "🐍 python · Check types"
+  # - repo: https://github.com/RobertCraigie/pyright-python
+  #   rev: v1.1.391
+  #   hooks:
+  #     - id: pyright
+  #       name: "🐍 python · Check types"
   #
 
   - repo: https://github.com/abravalheri/validate-pyproject

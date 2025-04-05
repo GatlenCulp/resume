@@ -173,7 +173,7 @@ cv:
     extracurricular_activities:
       - bullet: Pine View Support Group - Optimized 300+ students' studying experience by pooling a network of students and school resources
 design:
-  theme: classic
+  theme: gatlentheme
   page:
     size: us-letter
     top_margin: 1.3cm
@@ -184,10 +184,10 @@ design:
     show_last_updated_date: true
   colors:
     text: black
-    name: "#004f90"
-    connections: "#004f90"
-    section_titles: "#004f90"
-    links: "#004f90"
+    name: "#483D8B"
+    connections: "#483D8B"
+    section_titles: "#483D8B"
+    links: "#483D8B"
     last_updated_date_and_page_numbering: grey
   text:
     font_family: Source Sans 3
@@ -211,7 +211,7 @@ design:
     use_icons_for_connections: true
     alignment: left
   section_titles:
-    type: with-parial-line # This is correct, not a typo.
+    type: with-parial-line # NOT A TYPO
     font_family: Poppins
     font_size: 1.2em
     bold: true
