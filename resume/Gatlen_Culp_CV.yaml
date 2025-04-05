@@ -1,7 +1,10 @@
+# yaml-language-server: $schema=https://github.com/rendercv/rendercv/blob/main/schema.json?raw=true
+# Use Ctrl + Space For Suggestions
 cv:
   name: Gatlen Culp
   location: Cambridge, MA
   email: gculp@mit.edu
+  # photo: assets/profile_picture.jpg
   # phone: +1 (843) 754-0521
   website: http://gatlen.me
   social_networks:

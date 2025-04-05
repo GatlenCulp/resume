@@ -40,6 +40,7 @@ npm install resumed jsonresume-theme-even
 Using RenderCV
 
 ```bash
+# make run
 rendercv render resume/Gatlen_Culp_CV.yaml --watch \
 -o out
 ```

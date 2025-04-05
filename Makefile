@@ -17,7 +17,8 @@ DOCS_PORT ?= 8000
 .PHONY: run
 
 run:
-	rendercv render "Gatlen_Culp_CV.yaml"
+	rendercv render resume/Gatlen_Culp_CV.yaml --watch \
+	-o out
 
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Utilities ━━━━━━━━━━━━━━━━━━━━━━━━━━━ #
