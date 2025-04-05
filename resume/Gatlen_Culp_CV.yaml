@@ -1,62 +1,72 @@
 cv:
   name: Gatlen Culp
-  location: Cambridge, Massachusetts
-  email: contact@gatlen.com
-  phone: +1 (843) 754-0521
+  location: Cambridge, MA
+  email: gculp@mit.edu
+  # phone: +1 (843) 754-0521
   website: http://gatlen.me
   social_networks:
     - network: LinkedIn
-      username: gatlenculp
+      username: gatlen-culp
     - network: GitHub
       username: GatlenCulp
   sections:
     education:
       - institution: Massachusetts Institute of Technology
-        area: Computer Science and Engineering
+        area: Computer Science with a concentration in AI & Decision Making w/ Minor in Economics
         degree: BS
         start_date: 2021-09
-        end_date: present
+        end_date: 2026-05
         location: Cambridge, MA
-        highlights:
-          - "Expected graduation: May 2025"
+        emoji_icon: 🏫
     experience:
-      - company: METR
-        position: Evaluations/SWE Contractor
-        date: ""
+      - company: Model Evaluation and Threat Research (METR)
+        position: AI Evaluations & Software Engineering Contractor
         start_date: 2024-09
-        end_date: 2024-12
+        end_date: present
         location: Remote
-        summary: ""
+        emoji_icon: 📐
+        summary: "[Vivaria](https://vivaria.metr.org/) • [Homebrew](https://github.com/GatlenCulp/homebrew-vivaria/) and Python Installers • [Eval Templates](https://github.com/METR/vivaria/pull/710)"
         highlights:
-          - Developed CLI tools, evaluation templates, and installers for Vivaria, a platform used by METR to conduct AI capability and risk evaluations
-          - Enhanced documentation for rapid adoption and created a Python-based unified installation system replacing legacy shell scripts
+          - Developed CLI tools, evaluation templates, and installers for Vivaria, a platform used by METR to conduct AI capability and risk evaluations in partnership with OpenAI, Anthropic, and US/UK AI safety institutes
+          - Enhanced documentation for rapid adoption and created a [Python-based unified installation system](https://github.com/METR/vivaria/pull/721) replacing legacy shell scripts
           - Improved reliability and maintainability while adhering to project standards with comprehensive testing suites and technical documentation
-      - company: MIT AI Alignment (MAIA)
-        position: Director of Operations
-        date: ""
-        start_date: 2023-02
-        end_date: 2024-06
+      - company: "[MIT Computational Biology Lab](https://compbio.mit.edu/)"
+        position: DevOps & Full Stack Engineer
+        start_date: 2024-06
+        end_date: 2024-08
         location: Cambridge, MA
-        summary: ""
+        emoji_icon: 🕷️
+        summary: "[MantisAI](https://home.withmantis.com/) Data Visualization Team • Website"
         highlights:
-          - Led operations for 300+ people across 24+ programs, managing facility logistics, interior design, digital infrastructure, and program operations
+          - Engineered NetworkX-based graph visualization system and DevOps infrastructure for MantisAI, a Django web platform for interactive text and data analysis
+          - Architected CI/CD pipeline with GitHub Actions, Docker, and AWS deployment with robust security controls
+          - Led PostgreSQL migration alongside comprehensive code and documentation refactoring
+          - Identified critical security vulnerabilities requiring remediation
+      - company: "[MIT AI Alignment](https://aialignment.mit.edu) (+ [Harvard AI Safety Team](https://haist.ai/))"
+        position: Director of Operations
+        start_date: 2023-02
+        end_date: 2024-11
+        location: Cambridge, MA
+        emoji_icon: 📑
+        summary: "[MopMan](https://mitalignment.notion.site/MopMan-Documentation-9bbc80b1f07744458712211f4817dfc1?pvs=74) • [Public Resources](https://mitalignment.notion.site/Resources-for-AIS-University-Groups-8006446beb6b45b6be3052901ac93ff7?pvs=74)"
+        highlights:
+          - Led operations for 300+ people across 36+ programs, managing facility logistics, interior design, digital infrastructure, and program operations
           - Created MopMan automation tool, saving 10 hours/week across 3 AI safety groups
           - Halved expenses via office relocation while maintaining quality standards
           - Oversaw management of Amazon Web Services for MAIA and HAIST, supporting research in fine-tuning large language models
-      - company: Stanford Existential Risks Initiative & MIT Algorithmic Alignment Group
+      - company: "[Stanford Existential Risks Initiative](https://seri.stanford.edu/) & [MIT Algorithmic Alignment Group](https://github.com/Algorithmic-Alignment-Lab/CommonClaim)"
         position: Machine Learning Researcher
-        date: ""
         start_date: 2022-06
         end_date: 2022-10
-        location: Cambridge, MA
-        summary: ""
+        location: Berkeley, CA & Cambridge, MA
+        emoji_icon: 🤖
+        summary: "[CommonClaim Dataset](https://github.com/Algorithmic-Alignment-Lab/CommonClaim)"
         highlights:
-          - Designed and implemented a technique with PyTorch and GPT-2 fine-tuning to autonomously uncover prompts that result in bad responses from language models
-          - Contributed to team discussion, trained and selected models for the pipeline, and developed detailed diagrams
-          - "Published research paper 'Explore, Establish, Exploit: Red Teaming Language Models from Scratch' (https://arxiv.org/abs/2306.09442)"
+          - Developed RL fine-tuning technique for GPT-2 to autonomously identify diverse prompts resulting in harmful model outputs (violence, disinformation, etc.)
+          - Trained models, built evaluation pipeline, and created survey resulting in the CommonClaim dataset of 20,000 boolean statements
+          - "Published research paper [Explore, Establish, Exploit: Red Teaming Language Models from Scratch](https://arxiv.org/abs/2306.09442)"
       - company: MIT's Civic Data Design Lab (CDDL)
         position: Full Stack Web Developer
-        date: ""
         start_date: 2022-05
         end_date: 2022-06
         location: Cambridge, MA
@@ -68,7 +78,6 @@ cv:
           - Developed script to compress image sizes on MongoDB
       - company: Effective Altruism MIT
         position: Executive Officer
-        date: ""
         start_date: 2021-12
         end_date: 2022-05
         location: Cambridge, MA
@@ -77,31 +86,45 @@ cv:
           - Connected students with impactful careers and raised awareness on neglected global issues
           - Gave presentations, managed office, and executed educational and philosophical programs
           - Responsible for four to twelve significantly altered career plans
-      - company: Jungle Robotics FRC Team 3627
-        position: Team Manager & Lead Software Engineer
-        date: ""
-        start_date: 2017-08
-        end_date: 2021-08
-        location: Sarasota, FL
-        summary: ""
-        highlights:
-          - Managed three first-year programmers in programming a 125lb robot in Python
-          - Oversaw administrative parts of 20-person team including fundraising, workshops, meetings, design and construction
-          - Doubled team membership and taught STEM through local youth programs
       - company: Culp Computer Services LLC
         position: Founder & Tech Care Specialist
-        date: ""
         start_date: 2020-06
         end_date: 2021-08
-        location: North Port, FL
-        summary: ""
+        location: Sarasota, FL
+        emoji_icon: 🪛
+        summary: "[Facebook](http://facebook.com/CulpComputerServices/)"
         highlights:
           - Founded a small-scale business offering personal computer solutions from home theater to computer repair
           - Provided specialty care and service to around two dozen clients
-          - Developed branding, marketed to the local area, and created a website for the company
+          - Imaged ~30 laptops, recovered files, and fixed various devices
+      - company: Jungle Robotics FRC Team 3627
+        position: Manager, Assistant Manager, & Software Manager
+        start_date: 2017-09
+        end_date: 2021-08
+        location: Sarasota, FL
+        emoji_icon: 🦾
+        summary: "[Instagram](https://www.instagram.com/frcjungle3627/)"
+        highlights:
+          - Led three junior programmers in coding a 125lb robot for competition
+          - Oversaw administration of the 20-person team including fundraising, workshops, marketing, CAD, and construction of the robot
+          - Doubled team membership and taught STEM through local youth programs
     projects:
+      - name: "[OpenGesture](https://www.linkedin.com/feed/update/urn:li:activity:6697359801967607808/)"
+        summary: OpenCV app running a custom keyboard or mouse input using the number of fingers captured
+        emoji_icon: 👌
+      - name: "[UN Heritage Website](https://livingheritage.mit.edu/)"
+        summary: Delivered a full-stack web platform and WhatsApp interface in under three weeks with team
+        emoji_icon: 🪚
+      - name: "[Transformative AI](https://drive.google.com/file/d/1WwNgYYWfpA8-xY6De4dTSH_6tmojpW30/view?usp=sharing)"
+        summary: 33-minute-long technical article on the trajectory and impacts of AI
+        emoji_icon: 📈
+      - name: High School Achievements
+        summary: "[Florida TSA](https://floridatsa.org/wp-content/uploads/2019/03/2019-Awards-Report.pdf) Programming (2nd, 3rd place) and [HiMCM](https://www.contest.comap.com/highschool/contests/himcm/instructions.html#:~:text=COMAP'S%20High%20School%20Mathematical%20Contest,problem%20solving%2C%20and%20writing%20skills) Math Modeling (Meritorious)"
+        emoji_icon: 🏆
+      - name: Pine View Support Group
+        summary: Optimized 300+ students' studying experience by pooling a network of students and school resources
+        emoji_icon: 👨‍👩‍👧‍👦
       - name: MantisAI DevOps Engineer
-        date: ""
         start_date: 2023-01
         end_date: 2023-12
         location: MIT Computational Biology Lab
@@ -111,106 +134,106 @@ cv:
           - Led PostgreSQL migration alongside comprehensive code and documentation refactoring
           - Created technical demonstrations and identified critical security vulnerabilities requiring remediation
       - name: LLM Red Teaming Research
-        date: ""
         start_date: 2022-06
         end_date: 2022-10
         location: MIT
         summary: Research project on autonomous discovery of problematic model behaviors
         highlights:
-          - "Published paper 'Explore, Establish, Exploit: Red Teaming Language Models from Scratch' available at https://arxiv.org/abs/2306.09442"
-          - "Code repository at https://github.com/thestephencasper/explore_establish_exploit_llms"
-          - "Created the CommonClaim dataset at https://github.com/Algorithmic-Alignment-Lab/CommonClaim"
+          - "Published paper [Explore, Establish, Exploit: Red Teaming Language Models from Scratch](https://arxiv.org/abs/2306.09442)"
+          - Code repository at [GitHub](https://github.com/thestephencasper/explore_establish_exploit_llms)
+          - Created the CommonClaim dataset at [GitHub](https://github.com/Algorithmic-Alignment-Lab/CommonClaim)
     skills:
       - label: Technical Skills
-        details: Python (Advanced), Project Management (Advanced), Operations Management (Intermediate), Git (Novice), JavaScript (Intermediate), React.js (Novice), PyTorch (Novice), AWS (Novice)
-      - label: Web Development
-        details: HTML5, CSS, SASS, MongoDB, Twilio, Node.js
-      - label: Soft Skills
-        details: Communication, Emotional Intelligence, Education, Project Management, Leadership, Organization
+        details: Deep Learning w/ PyTorch, [AWS (Certified Practitioner)](https://www.credly.com/badges/83bd3cf9-7488-4954-97bf-e3575973ce2d/public_url), Project & Operations Strategy, Algorithms, Python
+        emoji_icons:
+          - 🤖
+          - ☁️
+          - 📑
+          - 🧮
+          - 🐍
+      - label: Creative & Development
+        details: Adobe Suite, Demos & Documentation, Full-Stack Development and DevOps, Entrepreneurship, Economics & Policy
+        emoji_icons:
+          - 🎨
+          - 🔍
+          - ⚙️
+          - ✊
+          - 🏦
     certifications_and_awards:
-      - bullet: AWS Certified Cloud Practitioner, Amazon Web Services (AWS), Dec 2023 - Dec 2026
+      - bullet: "[AWS Certified Cloud Practitioner](https://www.credly.com/badges/83bd3cf9-7488-4954-97bf-e3575973ce2d/public_url), Amazon Web Services (AWS), Dec 2023 - Dec 2026"
       - bullet: Autodesk Certified User - Inventor
       - bullet: OSHA 10-Hour General Industry, CareerSafe Online, Feb 2020
-      - bullet: State-Level Competitive Programming Awards (2nd and 3rd place), Technology Student Association, 2018-2019
-      - bullet: "'Meritorious' Award, High School Math Contest in Modeling (HiMCM)"
+      - bullet: "[State-Level Competitive Programming Awards](https://floridatsa.org/wp-content/uploads/2019/03/2019-Awards-Report.pdf) (2nd and 3rd place), Technology Student Association, 2018-2019"
+      - bullet: "'[Meritorious](https://www.contest.comap.com/highschool/contests/himcm/instructions.html#:~:text=COMAP'S%20High%20School%20Mathematical%20Contest,problem%20solving%2C%20and%20writing%20skills)' Award, High School Math Contest in Modeling (HiMCM)"
       - bullet: TryHackMe Badges and Experience
     test_scores:
       - bullet: SAT - 1520/1600, 2020
       - bullet: ACT - 34/36, 2020
       - bullet: SAT Subject Tests - Math Level 2 (800/800), Physics (800/800), 2020
     extracurricular_activities:
-      - bullet: "There are 7 unique entry types in RenderCV: *BulletEntry*, *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*, *PublicationEntry*, and *OneLineEntry*."
-      - bullet: Each entry type has a different structure and layout. This document demonstrates all of them.
-    numbered_entries:
-      - number: This is a numbered entry.
-      - number: This is another numbered entry.
-      - number: This is the third numbered entry.
-    reversed_numbered_entries:
-      - reversed_number: This is a reversed numbered entry.
-      - reversed_number: This is another reversed numbered entry.
-      - reversed_number: This is the third reversed numbered entry.
+      - bullet: Pine View Support Group - Optimized 300+ students' studying experience by pooling a network of students and school resources
 design:
   theme: classic
   page:
     size: us-letter
-    top_margin: 2cm
-    bottom_margin: 2cm
-    left_margin: 2cm
-    right_margin: 2cm
-    show_page_numbering: true
+    top_margin: 1.3cm
+    bottom_margin: 1.3cm
+    left_margin: 1.3cm
+    right_margin: 1.3cm
+    show_page_numbering: false
     show_last_updated_date: true
   colors:
-    text: rgb(0, 0, 0)
-    name: rgb(0, 79, 144)
-    connections: rgb(0, 79, 144)
-    section_titles: rgb(0, 79, 144)
-    links: rgb(0, 79, 144)
-    last_updated_date_and_page_numbering: rgb(128, 128, 128)
+    text: black
+    name: "#004f90"
+    connections: "#004f90"
+    section_titles: "#004f90"
+    links: "#004f90"
+    last_updated_date_and_page_numbering: grey
   text:
     font_family: Source Sans 3
     font_size: 10pt
-    leading: 0.6em
+    leading: 0.4em
     alignment: justified
     date_and_location_column_alignment: right
   links:
     underline: false
-    use_external_link_icon: true
+    use_external_link_icon: false
   header:
-    name_font_family: Source Sans 3
-    name_font_size: 30pt
+    name_font_family: Poppins
+    name_font_size: 20pt
     name_bold: true
     photo_width: 3.5cm
-    vertical_space_between_name_and_connections: 0.7cm
-    vertical_space_between_connections_and_first_section: 0.7cm
+    vertical_space_between_name_and_connections: 0.3cm
+    vertical_space_between_connections_and_first_section: 0.5cm
     horizontal_space_between_connections: 0.5cm
-    connections_font_family: Source Sans 3
+    connections_font_family: Poppins
     separator_between_connections: ""
     use_icons_for_connections: true
-    alignment: center
+    alignment: left
   section_titles:
-    type: with-full-line
-    font_family: Source Sans 3
-    font_size: 1.4em
+    type: with-parial-line # This is correct, not a typo.
+    font_family: Poppins
+    font_size: 1.2em
     bold: true
     small_caps: false
-    line_thickness: 0.5pt
-    vertical_space_above: 0.5cm
-    vertical_space_below: 0.3cm
+    line_thickness: 1.5pt
+    vertical_space_above: 0.3cm
+    vertical_space_below: 0.2cm
   entries:
     date_and_location_width: 4.15cm
-    left_and_right_margin: 0.2cm
+    left_and_right_margin: 0.1cm
     horizontal_space_between_columns: 0.1cm
-    vertical_space_between_entries: 1.2em
+    vertical_space_between_entries: 0.6em
     allow_page_break_in_sections: true
-    allow_page_break_in_entries: true
+    allow_page_break_in_entries: false
     short_second_row: false
     show_time_spans_in: []
   highlights:
     bullet: •
     top_margin: 0.25cm
-    left_margin: 0.4cm
+    left_margin: 0.3cm
     vertical_space_between_highlights: 0.25cm
-    horizontal_space_between_bullet_and_highlight: 0.5em
+    horizontal_space_between_bullet_and_highlight: 0.4em
     summary_left_margin: 0cm
   entry_types:
     one_line_entry:
@@ -234,7 +257,9 @@ design:
         LOCATION
         DATE
     experience_entry:
-      main_column_first_row_template: "**COMPANY**, POSITION"
+      main_column_first_row_template: |-
+        **POSITION**
+        COMPANY
       main_column_second_row_template: |-
         SUMMARY
         HIGHLIGHTS
@@ -264,7 +289,7 @@ locale:
   year: year
   years: years
   present: present
-  to: –
+  to: --
   abbreviations_for_months:
     - Jan
     - Feb
@@ -291,7 +316,8 @@ locale:
     - October
     - November
     - December
+
 rendercv_settings:
-  date: "2024-04-05"
+  date: "2025-04-05"
   render_command: null
   bold_keywords: []
