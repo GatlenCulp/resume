@@ -1,1 +1,1 @@
-- \<<entry.bullet>>
+- <<entry.bullet>>

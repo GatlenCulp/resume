@@ -1,1 +1,1 @@
-- \<<entry.number>>
+- <<entry.number>>

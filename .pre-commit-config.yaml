@@ -74,17 +74,17 @@ repos:
       - id: check-taskfile
         name: "✅ taskfile · Validate Task configuration"
 
-  ### Markdown ###
-  - repo: https://github.com/hukkin/mdformat
-    rev: 0.7.21
-    hooks:
-      - id: mdformat
-        name: "📝 markdown · Format markdown"
-        additional_dependencies:
-          - mdformat-gfm
-          - mdformat-ruff
-          - mdformat-frontmatter
-          - ruff
+  # ### Markdown ###
+  # - repo: https://github.com/hukkin/mdformat
+  #   rev: 0.7.21
+  #   hooks:
+  #     - id: mdformat
+  #       name: "📝 markdown · Format markdown"
+  #       additional_dependencies:
+  #         - mdformat-gfm
+  #         - mdformat-ruff
+  #         - mdformat-frontmatter
+  #         - ruff
 
   #
   # - repo: https://github.com/markdownlint/markdownlint
