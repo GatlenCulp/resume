@@ -1,5 +1,10 @@
 # yaml-language-server: $schema=https://github.com/rendercv/rendercv/blob/main/schema.json?raw=true
 # Use Ctrl + Space For Suggestions
+
+# [Arbitrary Keys Added](https://docs.rendercv.com/user_guide/structure_of_the_yaml_input_file/#using-arbitrary-keys)
+# sections.{any}.emoji_icon
+# sections.{any}.links
+
 cv:
   name: Gatlen Culp
   location: Cambridge, MA
@@ -8,10 +13,26 @@ cv:
   # phone: +1 (843) 754-0521
   website: http://gatlen.me
   social_networks:
-    - network: LinkedIn
-      username: gatlen-culp
+    # - network: LinkedIn
+    #   username: gatlen-culp
     - network: GitHub
       username: GatlenCulp
+    - network: Google Scholar
+      username: Gatlen_Culp
+    # - network: GitLab
+    #   username: GatlenCulp
+    # - network: Instagram
+    #   username: gatl0n
+    # - network: ORCID
+    #   username: 0000-0001-5704-6251
+    # - network: StackOverflow
+    #   username: 8298372/gatlen-culp
+    # - network: ResearchGate
+    #   username: Gatlen_Culp
+    # - network: YouTube
+    #   username: Th3Gam3Magn3t
+    # - network: X
+    #   username: GatlenCulp
   sections:
     education:
       - institution: Massachusetts Institute of Technology
@@ -27,8 +48,12 @@ cv:
         start_date: 2024-09
         end_date: present
         location: Remote
+        links:
+          - "[Vivaria](https://vivaria.metr.org/)"
+          - "[Homebrew](https://github.com/GatlenCulp/homebrew-vivaria/)"
+          - "[Eval Templates](https://github.com/METR/vivaria/pull/710)"
         emoji_icon: 📐
-        summary: "[Vivaria](https://vivaria.metr.org/) • [Homebrew](https://github.com/GatlenCulp/homebrew-vivaria/) • [Eval Templates](https://github.com/METR/vivaria/pull/710)"
+        # summary: "[Vivaria](https://vivaria.metr.org/) • [Homebrew](https://github.com/GatlenCulp/homebrew-vivaria/) • [Eval Templates](https://github.com/METR/vivaria/pull/710)"
         highlights:
           - Developed CLI tools, evaluation templates, and installers for Vivaria, a platform used by METR to conduct AI capability and risk evaluations in partnership with OpenAI, Anthropic, and US/UK AI safety institutes
           - Enhanced documentation for rapid adoption and created a [Python-based unified installation system](https://github.com/METR/vivaria/pull/721) replacing legacy shell scripts
@@ -61,7 +86,7 @@ cv:
         position: Machine Learning Researcher
         start_date: 2022-06
         end_date: 2022-10
-        location: Berkeley, CA & Cambridge, MA
+        location: Berkeley, CA
         emoji_icon: 🤖
         summary: "[CommonClaim Dataset](https://github.com/Algorithmic-Alignment-Lab/CommonClaim)"
         highlights:
@@ -175,150 +200,6 @@ cv:
       - bullet: SAT Subject Tests - Math Level 2 (800/800), Physics (800/800), 2020
     extracurricular_activities:
       - bullet: Pine View Support Group - Optimized 300+ students' studying experience by pooling a network of students and school resources
-design:
-  theme: gatlentheme
-  page:
-    size: us-letter
-    top_margin: 1.3cm
-    bottom_margin: 1.3cm
-    left_margin: 1.3cm
-    right_margin: 1.3cm
-    show_page_numbering: false
-    show_last_updated_date: true
-  colors:
-    text: black
-    name: "#483D8B"
-    connections: "#483D8B"
-    section_titles: "#483D8B"
-    links: "#483D8B"
-    last_updated_date_and_page_numbering: grey
-  text:
-    font_family: Source Sans 3
-    font_size: 10pt
-    leading: 0.4em
-    alignment: justified
-    date_and_location_column_alignment: right
-  links:
-    underline: false
-    use_external_link_icon: false
-  header:
-    name_font_family: Poppins
-    name_font_size: 20pt
-    name_bold: true
-    photo_width: 3.5cm
-    vertical_space_between_name_and_connections: 0.3cm
-    vertical_space_between_connections_and_first_section: 0.5cm
-    horizontal_space_between_connections: 0.5cm
-    connections_font_family: Poppins
-    separator_between_connections: ""
-    use_icons_for_connections: true
-    alignment: left
-  section_titles:
-    type: with-parial-line # NOT A TYPO
-    font_family: Poppins
-    font_size: 1.2em
-    bold: true
-    small_caps: false
-    line_thickness: 5pt
-    vertical_space_above: 0.3cm
-    vertical_space_below: 0.2cm
-  entries:
-    date_and_location_width: 4.15cm
-    left_and_right_margin: 0.1cm
-    horizontal_space_between_columns: 0.1cm
-    vertical_space_between_entries: 0.6em
-    allow_page_break_in_sections: true
-    allow_page_break_in_entries: false
-    short_second_row: false
-    show_time_spans_in: []
-  highlights:
-    bullet: •
-    top_margin: 0.25cm
-    left_margin: 0.3cm
-    vertical_space_between_highlights: 0.25cm
-    horizontal_space_between_bullet_and_highlight: 0.4em
-    summary_left_margin: 0cm
-  entry_types:
-    one_line_entry:
-      template: "**LABEL:** DETAILS"
-    education_entry:
-      main_column_first_row_template: "**INSTITUTION**, AREA"
-      degree_column_template: "**DEGREE**"
-      degree_column_width: 1cm
-      main_column_second_row_template: |-
-        SUMMARY
-        HIGHLIGHTS
-      date_and_location_column_template: |-
-        LOCATION
-        DATE
-    normal_entry:
-      main_column_first_row_template: "**NAME**"
-      main_column_second_row_template: |-
-        SUMMARY
-        HIGHLIGHTS
-      date_and_location_column_template: |-
-        LOCATION
-        DATE
-    experience_entry:
-      main_column_first_row_template: |-
-        EMOJI_ICON **POSITION**
-        COMPANY
-      main_column_second_row_template: |-
-        SUMMARY
-        HIGHLIGHTS
-      date_and_location_column_template: |-
-        LOCATION
-        DATE
-    publication_entry:
-      main_column_first_row_template: "**TITLE**"
-      main_column_second_row_template: |-
-        AUTHORS
-        URL (JOURNAL)
-      main_column_second_row_without_journal_template: |-
-        AUTHORS
-        URL
-      main_column_second_row_without_url_template: |-
-        AUTHORS
-        JOURNAL
-      date_and_location_column_template: DATE
-locale:
-  language: en
-  phone_number_format: national
-  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  last_updated_date_template: Last updated in TODAY
-  date_template: MONTH_ABBREVIATION YEAR
-  month: month
-  months: months
-  year: year
-  years: years
-  present: present
-  to: --
-  abbreviations_for_months:
-    - Jan
-    - Feb
-    - Mar
-    - Apr
-    - May
-    - June
-    - July
-    - Aug
-    - Sept
-    - Oct
-    - Nov
-    - Dec
-  full_names_of_months:
-    - January
-    - February
-    - March
-    - April
-    - May
-    - June
-    - July
-    - August
-    - September
-    - October
-    - November
-    - December
 
 rendercv_settings:
   date: "2025-04-05"

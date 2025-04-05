@@ -14,11 +14,21 @@ DOCS_PORT ?= 8000
 .DEFAULT_GOAL := help
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━ Project Rules ━━━━━━━━━━━━━━━━━━━━━━━━━ #
-.PHONY: run
+.PHONY: run watch
+
+# For some reason, watch does not properly use the design.
+watch:
+	rendercv render resume/Gatlen_Culp_CV.yaml \
+	-o out \
+	--locale-catalog resume/locale_CV.yaml \
+	--design resume/design_CV.yaml \
+	--watch
 
 run:
-	rendercv render resume/Gatlen_Culp_CV.yaml --watch \
-	-o out
+	rendercv render resume/Gatlen_Culp_CV.yaml \
+	-o out \
+	--locale-catalog resume/locale_CV.yaml \
+	--design resume/design_CV.yaml
 
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Utilities ━━━━━━━━━━━━━━━━━━━━━━━━━━━ #

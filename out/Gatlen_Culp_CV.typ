@@ -45,7 +45,7 @@
 #let design-highlights-left-margin = 0.3cm
 #let design-highlights-vertical-space-between-highlights = 0.25cm
 #let design-highlights-horizontal-space-between-bullet-and-highlights = 0.4em
-#let design-entries-vertical-space-between-entries = 0.6em
+#let design-entries-vertical-space-between-entries = 1em
 #let design-entries-date-and-location-width = 4.15cm
 #let design-entries-allow-page-break-in-entries = false
 #let design-entries-horizontal-space-between-columns = 0.1cm
@@ -454,8 +454,8 @@
   [#fa-icon("location-dot", size: 0.9em) #h(0.05cm)Cambridge, MA],
   [#box(original-link("mailto:gculp@mit.edu")[#fa-icon("envelope", size: 0.9em) #h(0.05cm)gculp\@mit.edu])],
   [#box(original-link("http://gatlen.me/")[#fa-icon("link", size: 0.9em) #h(0.05cm)gatlen.me])],
-  [#box(original-link("https://linkedin.com/in/gatlen-culp")[#fa-icon("linkedin", size: 0.9em) #h(0.05cm)gatlen-culp])],
   [#box(original-link("https://github.com/GatlenCulp")[#fa-icon("github", size: 0.9em) #h(0.05cm)GatlenCulp])],
+  [#box(original-link("https://scholar.google.com/citations?user=Gatlen_Culp")[#fa-icon("graduation-cap", size: 0.9em) #h(0.05cm)Google Scholar])],
 )
 #connections(connections-list)
 
@@ -499,9 +499,7 @@ Sept 2024 -- present
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [#link("https://vivaria.metr.org/")[Vivaria] • #link("https://github.com/GatlenCulp/homebrew-vivaria/")[Homebrew] • #link("https://github.com/METR/vivaria/pull/710")[Eval Templates]])], column-gutter: 0cm)
-
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed CLI tools, evaluation templates, and installers for Vivaria, a platform used by METR to conduct AI capability and risk evaluations in partnership with OpenAI, Anthropic, and US\/UK AI safety institutes],[Enhanced documentation for rapid adoption and created a #link("https://github.com/METR/vivaria/pull/721")[Python-based unified installation system] replacing legacy shell scripts],[Improved reliability and maintainability while adhering to project standards with comprehensive testing suites and technical documentation],)
+    #v(design-highlights-top-margin);#highlights([Developed CLI tools, evaluation templates, and installers for Vivaria, a platform used by METR to conduct AI capability and risk evaluations in partnership with OpenAI, Anthropic, and US\/UK AI safety institutes],[Enhanced documentation for rapid adoption and created a #link("https://github.com/METR/vivaria/pull/721")[Python-based unified installation system] replacing legacy shell scripts],[Improved reliability and maintainability while adhering to project standards with comprehensive testing suites and technical documentation],)
   ],
 )
 
@@ -555,7 +553,7 @@ Feb 2023 -- Nov 2024
 #link("https://seri.stanford.edu/")[Stanford Existential Risks Initiative] & #link("https://github.com/Algorithmic-Alignment-Lab/CommonClaim")[MIT Algorithmic Alignment Group]
   ],
   right-content: [
-    Berkeley, CA & Cambridge, MA
+    Berkeley, CA
 
 June 2022 -- Oct 2022
   ],

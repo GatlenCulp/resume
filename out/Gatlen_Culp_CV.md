@@ -3,8 +3,8 @@
 - Email: [gculp@mit.edu](mailto:gculp@mit.edu)
 - Location: Cambridge, MA
 - Website: [http:gatlen.me](http://gatlen.me/)
-- LinkedIn: [gatlen-culp](https://linkedin.com/in/gatlen-culp)
 - GitHub: [GatlenCulp](https://github.com/GatlenCulp)
+- Google Scholar: [Gatlen_Culp](https://scholar.google.com/citations?user=Gatlen_Culp)
 
 
 # Education
@@ -45,7 +45,7 @@
 ## [Stanford Existential Risks Initiative](https://seri.stanford.edu/) & [MIT Algorithmic Alignment Group](https://github.com/Algorithmic-Alignment-Lab/CommonClaim), Machine Learning Researcher
 
 - June 2022 -- Oct 2022
-- Berkeley, CA & Cambridge, MA
+- Berkeley, CA
 - Developed RL fine-tuning technique for GPT-2 to autonomously identify diverse prompts resulting in harmful model outputs (violence, disinformation, etc.)
 - Trained models, built evaluation pipeline, and created survey resulting in the CommonClaim dataset of 20,000 boolean statements
 - Published research paper [Explore, Establish, Exploit: Red Teaming Language Models from Scratch](https://arxiv.org/abs/2306.09442)
