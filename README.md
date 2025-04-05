@@ -1,147 +1,64 @@
 # gatlen-resume
 
-![Uses the Cookiecutter Data Science project template, GOTem style](https://img.shields.io/badge/GOTem-Project%20Instance-328F97?logo=cookiecutter)
-
-[![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
+![Uses the Cookiecutter Data Science project template, GOTem style](https://img.shields.io/badge/GOTem-Project%20Instance-328F97?logo=cookiecutter) [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
 
 <!-- [![tests](https://github.com/GatlenCulp/gatlen-resume/actions/workflows/tests.yml/badge.svg)](https://github.com/GatlenCulp/gatlen-resume/actions/workflows/tests.yml) -->
 <!-- ![GitHub stars](https://img.shields.io/github/stars/GatlenCulp/gatlen-resume?style=social) -->
 
-> [!NOTE]
-> This project was created using [Gatlen's Opinionated Template (GOTem)](https://github.com/GatlenCulp/gatlens-opinionated-template), a cutting-edge project template for power users and researchers.
-
-<div align="center">
-  <a href="https://github.com//gatlen-resume">
-    <!-- Please provide path to your logo here -->
-    <img src="https://picsum.photos/id/237/200/300" alt="Logo" style="max-width: 250px;"/>
-  </a>
-  <br/>
-  <b>gatlen-resume</b>
-</div>
-<br>
-
-
-> **[?]**
-> Provide a brief description of your project here. What does it do? Why is it useful?
-**[View the full documentation here](https://Gatlen Culp.github.io/gatlen-resume) ➡️**
-
----
-## 00 Table of Contents
-
-- [gatlen-resume](#gatlen-resume)
-  - [00 Table of Contents](#00-table-of-contents)
-  - [01 About](#01-about)
-  - [02 Getting Started](#02-getting-started)
-    - [02.01 Prerequisites](#0201-prerequisites)
-    - [02.02 Installation](#0202-installation)
-  - [03 Usage](#03-usage)
-  - [04 Project Structure](#04-project-structure)
-  - [05 Contributing](#05-contributing)
-  - [06 License](#06-license)
-
----
 ## 01 About
 
-> **[?]**
-> Provide detailed information about your project here.
-> - What problem does it solve?
-> - What makes it unique?
-> - What are its key features?
-> - Who is it for?
+This is Gatlen's personal resume in a variety of formats (md, markdown, json (json-resume), etc.), using a single source of truth I can utilize elsewhere.
 
-<details>
-<summary>📸 Screenshots</summary>
-<br>
+I'm mainly using this because I'm tired of destructively editing my Resume in the same Microsoft Word document I've been using since high school. I wanted version control. I wanted more flexibility and the ability to programmatically control its creation. I want to query this information elsewhere (potentially on my website or something). And I want to continually add to my Resume's data without deleting things from it directly.
 
-> **[?]**
-> Please provide your screenshots here.
+## 02 Technologies
 
-|                               Home Page                               |                               Login Page                               |
-| :-------------------------------------------------------------------: | :--------------------------------------------------------------------: |
-| <img src="https://picsum.photos/id/237/200/300" title="Home Page" width="100%"> | <img src="https://picsum.photos/id/237/200/300" title="Login Page" width="100%"> |
+- [JSON-Resume](https://jsonresume.org/) -- The open source initiative to create a JSON-based standard for resumes. For developers, by developers.
+    - [resumed](https://github.com/rbardini/resumed) -- Modern alternative to the resume-cli
+- [RenderCV](https://docs.rendercv.com/) -- Typst-based Python package with a command-line interface (CLI) that allows you to version-control your CV/resume as source code. It reads a CV written in a YAML file with Markdown syntax, converts it into a Typst code, and generates a PDF.
 
-</details>
 
----
-## 02 Getting Started
+There are some [other similar projects](https://jsonresume.org/projects)
 
-### 02.01 Prerequisites
+## 03 Getting Started
 
-> **[?]**
-> List all dependencies and requirements needed before installing the project:
-> ```bash
-> # Example
-> python >= 3.8
-> pip >= 21.0
-> ```
+### 03.01 Install Requirements
 
-### 02.02 Installation
-
-> **[?]**
-> Provide step-by-step installation instructions:
-> 
-> **01. Clone the repository**
-> ```bash
-> git clone https://github.com/GatlenCulp/gatlen-resume.git
-> cd gatlen-resume
-> ```
-> 
-> **02. Install dependencies**
-> ```bash
-> pip install -e .
-> ```
-
----
-## 03 Usage
-
-> **[?]**
-> Provide basic usage examples with code snippets:
-> 
-> ```python
-> from resume import example
-> 
-> # Initialize
-> example.start()
-> 
-> # Run a basic operation
-> result = example.process("data")
-> print(result)
-> ```
-
----
-## 04 Project Structure
-
-This project follows the structure of [Gatlen's Opinionated Template (GOTem)](https://github.com/GatlenCulp/gatlens-opinionated-template):
-
-```
-📁 .
-├── 📁 data               <- Data directories for various stages
-├── 📚 docs               <- Documentation
-├── 📋 logs               <- Log files
-├── 📁 notebooks          <- Jupyter notebooks
-├── 🗑️ out                <- Output files, models, etc.
-└── 🚰 resume  <- Source code
-    ├── ⚙️ config.py      <- Configuration settings
-    ├── 🐍 dataset.py     <- Data processing
-    ├── 🐍 features.py    <- Feature engineering
-    ├── 📁 modeling       <- Model training and prediction
-    └── 🐍 plots.py       <- Visualization code
+For python using uv and activate environment
+```bash
+uv sync
+source ./.venv/bin/activate
 ```
 
-For a more detailed explanation of the project structure, see the [CONTRIBUTING.md](docs/CONTRIBUTING.md) file.
+For using json-resume (npm package):
+```bash
+npm install resumed jsonresume-theme-even
+```
 
----
-## 05 Contributing
+### 03.02 Build Typst Resume
 
-We welcome contributions to this project! Please see our [contribution guidelines](docs/CONTRIBUTING.md) for detailed information on how to:
+Using RenderCV
 
-- Set up your development environment
-- Submit issues and feature requests
-- Create pull requests
-- Get support
+```bash
+rendercv render resume/Gatlen_Culp_CV.yaml --watch \
+-o out
+```
 
----
-## 06 License
+Using jsonresume (not to parity, use RenderCV above)
+
+```bash
+cd resume/json && \
+npx resumed render resume.json \
+--theme jsonresume-theme-even
+```
 
 
-This project is licensed under the MIT - see the [LICENSE](LICENSE) file for details.
+## 04 Random Notes
+
+
+### 04.01 Typst
+Typst is pretty cool!!! Uncertain if it is more configurable than LaTeX or have access to similar packages but the syntax is far better and it is programmatic which is LOVELY.
+
+### 04.02 `npm run` and `npx`
+
+`npm run` is for running `package.json` scripts, `npx` runs a package directly.

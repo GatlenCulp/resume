@@ -1,0 +1,11 @@
+{
+	"dependencies": {
+		"jsonresume-theme-even": "^0.23.0",
+		"resumed": "^4.1.0"
+	},
+	"scripts": {
+		"resume:init": "resumed init",
+		"resume:render": "resumed render --theme even",
+		"resume:validate": "resumed validate"
+	}
+}

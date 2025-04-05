@@ -19,13 +19,13 @@ cv:
         location: Cambridge, MA
         emoji_icon: 🏫
     experience:
-      - company: Model Evaluation and Threat Research (METR)
+      - company: "[Model Evaluation and Threat Research (METR)](https://metr.org/)"
         position: AI Evaluations & Software Engineering Contractor
         start_date: 2024-09
         end_date: present
         location: Remote
         emoji_icon: 📐
-        summary: "[Vivaria](https://vivaria.metr.org/) • [Homebrew](https://github.com/GatlenCulp/homebrew-vivaria/) and Python Installers • [Eval Templates](https://github.com/METR/vivaria/pull/710)"
+        summary: "[Vivaria](https://vivaria.metr.org/) • [Homebrew](https://github.com/GatlenCulp/homebrew-vivaria/) • [Eval Templates](https://github.com/METR/vivaria/pull/710)"
         highlights:
           - Developed CLI tools, evaluation templates, and installers for Vivaria, a platform used by METR to conduct AI capability and risk evaluations in partnership with OpenAI, Anthropic, and US/UK AI safety institutes
           - Enhanced documentation for rapid adoption and created a [Python-based unified installation system](https://github.com/METR/vivaria/pull/721) replacing legacy shell scripts
@@ -216,7 +216,7 @@ design:
     font_size: 1.2em
     bold: true
     small_caps: false
-    line_thickness: 1.5pt
+    line_thickness: 5pt
     vertical_space_above: 0.3cm
     vertical_space_below: 0.2cm
   entries:
@@ -258,7 +258,7 @@ design:
         DATE
     experience_entry:
       main_column_first_row_template: |-
-        **POSITION**
+        EMOJI_ICON **POSITION**
         COMPANY
       main_column_second_row_template: |-
         SUMMARY

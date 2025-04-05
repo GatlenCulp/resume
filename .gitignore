@@ -6,6 +6,8 @@
 old-info/
 **/old-info/
 
+node_modules
+
 # RenderCV output files
 rendercv_output/
 **/rendercv_output/
