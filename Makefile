@@ -28,7 +28,8 @@ run:
 	rendercv render resume/Gatlen_Culp_CV.yaml \
 	-o out \
 	--locale-catalog resume/locale_CV.yaml \
-	--design resume/design_CV.yaml
+	--design resume/design_CV.yaml \
+	--markdown-path README.md
 
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Utilities ━━━━━━━━━━━━━━━━━━━━━━━━━━━ #

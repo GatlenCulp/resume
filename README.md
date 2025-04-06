@@ -1,65 +1,48 @@
-# gatlen-resume
+# Gatlen Culp's CV
 
-![Uses the Cookiecutter Data Science project template, GOTem style](https://img.shields.io/badge/GOTem-Project%20Instance-328F97?logo=cookiecutter) [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
-
-<!-- [![tests](https://github.com/GatlenCulp/gatlen-resume/actions/workflows/tests.yml/badge.svg)](https://github.com/GatlenCulp/gatlen-resume/actions/workflows/tests.yml) -->
-<!-- ![GitHub stars](https://img.shields.io/github/stars/GatlenCulp/gatlen-resume?style=social) -->
-
-## 01 About
-
-This is Gatlen's personal resume in a variety of formats (md, markdown, json (json-resume), etc.), using a single source of truth I can utilize elsewhere.
-
-I'm mainly using this because I'm tired of destructively editing my Resume in the same Microsoft Word document I've been using since high school. I wanted version control. I wanted more flexibility and the ability to programmatically control its creation. I want to query this information elsewhere (potentially on my website or something). And I want to continually add to my Resume's data without deleting things from it directly.
-
-## 02 Technologies
-
-- [JSON-Resume](https://jsonresume.org/) -- The open source initiative to create a JSON-based standard for resumes. For developers, by developers.
-    - [resumed](https://github.com/rbardini/resumed) -- Modern alternative to the resume-cli
-- [RenderCV](https://docs.rendercv.com/) -- Typst-based Python package with a command-line interface (CLI) that allows you to version-control your CV/resume as source code. It reads a CV written in a YAML file with Markdown syntax, converts it into a Typst code, and generates a PDF.
+- Email: [gculp@mit.edu](mailto:gculp@mit.edu)
+- Location: Cambridge, MA
+- Website: [http:gatlen.me](http://gatlen.me/)
+- GitHub: [GatlenCulp](https://github.com/GatlenCulp)
+- Google Scholar: [Gatlen_Culp](https://scholar.google.com/citations?user=Gatlen_Culp)
 
 
-There are some [other similar projects](https://jsonresume.org/projects)
+# Education
 
-## 03 Getting Started
+## Massachusetts Institute of Technology, BS in Computer Science with a concentration in AI & Decision Making
 
-### 03.01 Install Requirements
+- Sept 2021 -- Dec 2025
+- Cambridge, MA
 
-For python using uv and activate environment
-```bash
-uv sync
-source ./.venv/bin/activate
-```
+# Experience
 
-For using json-resume (npm package):
-```bash
-npm install resumed jsonresume-theme-even
-```
+## [Model Evaluation and Threat Research (METR)](https://metr.org/), AI Evaluations & Software Engineering Contractor
 
-### 03.02 Build Typst Resume
+- Sept 2024 -- present
+- Remote
 
-Using RenderCV
+## [MIT Computational Biology Lab](https://compbio.mit.edu/), DevOps & Full Stack Engineer
 
-```bash
-# make run
-rendercv render resume/Gatlen_Culp_CV.yaml --watch \
--o out
-```
+- June 2024 -- Aug 2024
+- Cambridge, MA
 
-Using jsonresume (not to parity, use RenderCV above)
+## [MIT AI Alignment](https://aialignment.mit.edu) (+ [Harvard AI Safety Team](https://haist.ai/)), Director of Operations
 
-```bash
-cd resume/json && \
-npx resumed render resume.json \
---theme jsonresume-theme-even
-```
+- Feb 2023 -- Nov 2024
+- Cambridge, MA
 
+## [Stanford Existential Risks Initiative](https://seri.stanford.edu/) & [MIT Algorithmic Alignment Group](https://github.com/Algorithmic-Alignment-Lab/CommonClaim), Machine Learning Researcher
 
-## 04 Random Notes
+- June 2022 -- Oct 2022
+- Berkeley, CA
 
+## [MIT's Civic Data Design Lab (CDDL)](https://civicdatadesignlab.mit.edu/), Full Stack Web Developer
 
-### 04.01 Typst
-Typst is pretty cool!!! Uncertain if it is more configurable than LaTeX or have access to similar packages but the syntax is far better and it is programmatic which is LOVELY.
+- May 2022 -- June 2022
+- Cambridge, MA
 
-### 04.02 `npm run` and `npx`
+# Misc
 
-`npm run` is for running `package.json` scripts, `npx` runs a package directly.
+- Professional Certifications: [AWS Certified Cloud Practitioner](https://www.credly.com/badges/83bd3cf9-7488-4954-97bf-e3575973ce2d/public_url) (Dec 2023 - Dec 2026), Autodesk Certified User - Inventor, OSHA 10-Hour General Industry (Feb 2020)
+- Academic & Technical Awards: [State-Level Competitive Programming Awards](https://floridatsa.org/wp-content/uploads/2019/03/2019-Awards-Report.pdf) (TSA), '[Meritorious](https://www.contest.comap.com/highschool/contests/himcm/instructions.html#:~:text=COMAP'S%20High%20School%20Mathematical%20Contest,problem%20solving%2C%20and%20writing%20skills)' Award (HiMCM), [TryHackMe Badges and Experience](https://tryhackme.com/p/GatlenCulp)
+- Notable Projects: [OpenGesture](https://www.linkedin.com/feed/update/urn:li:activity:6697359801967607808/) - OpenCV app for custom keyboard/mouse inputs, [Transformative AI](https://drive.google.com/file/d/1WwNgYYWfpA8-xY6De4dTSH_6tmojpW30/view?usp=sharing) - Technical article on AI trajectory and impacts, [Personal Blog](http://gatlen.blog) - Containing various notes and thoughts, [GOTem](https://github.com/GatlenCulp/gatlens-opinionated-template) - Cutting-edge, opinionated, and ambitious project builder for power users and researchers.
