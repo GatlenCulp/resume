@@ -9,7 +9,7 @@
 
 # Education
 
-## Massachusetts Institute of Technology, BS in Computer Science with a concentration in AI & Decision Making w/ Minor in Economics
+## Massachusetts Institute of Technology, BS in Computer Science with a concentration in AI & Decision Making
 
 - Sept 2021 -- May 2026
 - Cambridge, MA
@@ -50,7 +50,7 @@
 - Trained models, built evaluation pipeline, and created survey resulting in the CommonClaim dataset of 20,000 boolean statements
 - Published research paper [Explore, Establish, Exploit: Red Teaming Language Models from Scratch](https://arxiv.org/abs/2306.09442)
 
-## MIT's Civic Data Design Lab (CDDL), Full Stack Web Developer
+## [MIT's Civic Data Design Lab (CDDL)](https://civicdatadesignlab.mit.edu/), Full Stack Web Developer
 
 - May 2022 -- June 2022
 - Cambridge, MA
@@ -58,30 +58,6 @@
 - Implemented contribution form web page with React, SASS, REST API, and Node
 - Created WhatsApp informational messaging interface with Twilio
 - Developed script to compress image sizes on MongoDB
-
-## Effective Altruism MIT, Executive Officer
-
-- Dec 2021 -- May 2022
-- Cambridge, MA
-- Connected students with impactful careers and raised awareness on neglected global issues
-- Gave presentations, managed office, and executed educational and philosophical programs
-- Responsible for four to twelve significantly altered career plans
-
-## Culp Computer Services LLC, Founder & Tech Care Specialist
-
-- June 2020 -- Aug 2021
-- Sarasota, FL
-- Founded a small-scale business offering personal computer solutions from home theater to computer repair
-- Provided specialty care and service to around two dozen clients
-- Imaged ~30 laptops, recovered files, and fixed various devices
-
-## Jungle Robotics FRC Team 3627, Manager, Assistant Manager, & Software Manager
-
-- Sept 2017 -- Aug 2021
-- Sarasota, FL
-- Led three junior programmers in coding a 125lb robot for competition
-- Oversaw administration of the 20-person team including fundraising, workshops, marketing, CAD, and construction of the robot
-- Doubled team membership and taught STEM through local youth programs
 
 # Projects
 
@@ -100,22 +76,6 @@
 ## Pine View Support Group
 
 
-## MantisAI DevOps Engineer
-
-- Jan 2023 -- Dec 2023
-- MIT Computational Biology Lab
-- Architected CI/CD pipeline with GitHub Actions, PyTest, Docker, and AWS deployment with robust security controls
-- Led PostgreSQL migration alongside comprehensive code and documentation refactoring
-- Created technical demonstrations and identified critical security vulnerabilities requiring remediation
-
-## LLM Red Teaming Research
-
-- June 2022 -- Oct 2022
-- MIT
-- Published paper [Explore, Establish, Exploit: Red Teaming Language Models from Scratch](https://arxiv.org/abs/2306.09442)
-- Code repository at [GitHub](https://github.com/thestephencasper/explore_establish_exploit_llms)
-- Created the CommonClaim dataset at [GitHub](https://github.com/Algorithmic-Alignment-Lab/CommonClaim)
-
 # Skills
 
 - Technical Skills: Deep Learning w/ PyTorch, [AWS (Certified Practitioner)](https://www.credly.com/badges/83bd3cf9-7488-4954-97bf-e3575973ce2d/public_url), Project & Operations Strategy, Algorithms, Python
@@ -128,11 +88,3 @@
 - [State-Level Competitive Programming Awards](https://floridatsa.org/wp-content/uploads/2019/03/2019-Awards-Report.pdf) (2nd and 3rd place), Technology Student Association, 2018-2019
 - '[Meritorious](https://www.contest.comap.com/highschool/contests/himcm/instructions.html#:~:text=COMAP'S%20High%20School%20Mathematical%20Contest,problem%20solving%2C%20and%20writing%20skills)' Award, High School Math Contest in Modeling (HiMCM)
 - TryHackMe Badges and Experience
-# Test Scores
-
-- SAT - 1520/1600, 2020
-- ACT - 34/36, 2020
-- SAT Subject Tests - Math Level 2 (800/800), Physics (800/800), 2020
-# Extracurricular Activities
-
-- Pine View Support Group - Optimized 300+ students' studying experience by pooling a network of students and school resources

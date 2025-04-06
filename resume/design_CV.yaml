@@ -49,7 +49,7 @@ design:
     date_and_location_width: 4.15cm
     left_and_right_margin: 0.1cm
     horizontal_space_between_columns: 0.1cm
-    vertical_space_between_entries: 1em
+    vertical_space_between_entries: 1.2em
     allow_page_break_in_sections: true
     allow_page_break_in_entries: false
     short_second_row: false
@@ -65,23 +65,25 @@ design:
     one_line_entry:
       template: "**LABEL:** DETAILS"
     education_entry:
-      main_column_first_row_template: "**INSTITUTION**, AREA"
+      main_column_first_row_template: |-
+        **INSTITUTION**
+        AREA
       degree_column_template: "**DEGREE**"
       degree_column_width: 1cm
       main_column_second_row_template: |-
         SUMMARY
         HIGHLIGHTS
       date_and_location_column_template: |-
+        **DATE**
         LOCATION
-        DATE
     normal_entry:
       main_column_first_row_template: "**NAME**"
       main_column_second_row_template: |-
         SUMMARY
         HIGHLIGHTS
       date_and_location_column_template: |-
+        **DATE**
         LOCATION
-        DATE
     experience_entry:
       main_column_first_row_template: |-
         **POSITION**
@@ -90,8 +92,8 @@ design:
         SUMMARY
         HIGHLIGHTS
       date_and_location_column_template: |-
+        **DATE**
         LOCATION
-        DATE
     publication_entry:
       main_column_first_row_template: "**TITLE**"
       main_column_second_row_template: |-

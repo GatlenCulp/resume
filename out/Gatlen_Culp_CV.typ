@@ -45,7 +45,7 @@
 #let design-highlights-left-margin = 0.3cm
 #let design-highlights-vertical-space-between-highlights = 0.25cm
 #let design-highlights-horizontal-space-between-bullet-and-highlights = 0.4em
-#let design-entries-vertical-space-between-entries = 1em
+#let design-entries-vertical-space-between-entries = 1.2em
 #let design-entries-date-and-location-width = 4.15cm
 #let design-entries-allow-page-break-in-entries = false
 #let design-entries-horizontal-space-between-columns = 0.1cm
@@ -469,14 +469,14 @@
   left-column-width: 1cm,
   left-content: [#strong[BS]],
   middle-content: [
-    #strong[Massachusetts Institute of Technology], Computer Science with a concentration in AI & Decision Making w\/ Minor in Economics
+    #strong[Massachusetts Institute of Technology]
 
-    
+Computer Science with a concentration in AI & Decision Making
   ],
   right-content: [
-    Cambridge, MA
+    #strong[Sept 2021 -- May 2026]
 
-Sept 2021 -- May 2026
+Cambridge, MA
   ],
 )
 
@@ -487,14 +487,18 @@ Sept 2021 -- May 2026
 
 #two-col-entry(
   left-content: [
+    #box(
+      fa-icon("ruler-combined"),
+      baseline: 0%,
+    )
     #strong[AI Evaluations & Software Engineering Contractor]
 
 #link("https://metr.org/")[Model Evaluation and Threat Research \(METR\)]
-  ],
+ ⋅ #link("https://vivaria.metr.org/")[Vivaria]  ⋅ #link("https://github.com/GatlenCulp/homebrew-vivaria/")[Homebrew]  ⋅ #link("https://github.com/METR/vivaria/pull/710")[Eval Templates]   ],
   right-content: [
-    Remote
+    #strong[Sept 2024 -- present]
 
-Sept 2024 -- present
+Remote
   ],
 )
 #one-col-entry(
@@ -506,143 +510,92 @@ Sept 2024 -- present
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
+    #box(
+      fa-icon("spider"),
+      baseline: 0%,
+    )
     #strong[DevOps & Full Stack Engineer]
 
 #link("https://compbio.mit.edu/")[MIT Computational Biology Lab]
-  ],
+ ⋅ #link("https://home.withmantis.com/")[MantisAI Website]   ],
   right-content: [
-    Cambridge, MA
+    #strong[June 2024 -- Aug 2024]
 
-June 2024 -- Aug 2024
+Cambridge, MA
   ],
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [#link("https://home.withmantis.com/")[MantisAI] Data Visualization Team • Website])], column-gutter: 0cm)
-
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Engineered NetworkX-based graph visualization system and DevOps infrastructure for MantisAI, a Django web platform for interactive text and data analysis],[Architected CI\/CD pipeline with GitHub Actions, Docker, and AWS deployment with robust security controls],[Led PostgreSQL migration alongside comprehensive code and documentation refactoring],[Identified critical security vulnerabilities requiring remediation],)
+    #v(design-highlights-top-margin);#highlights([Engineered NetworkX-based graph visualization system and DevOps infrastructure for MantisAI, a Django web platform for interactive text and data analysis],[Architected CI\/CD pipeline with GitHub Actions, Docker, and AWS deployment with robust security controls],[Led PostgreSQL migration alongside comprehensive code and documentation refactoring],[Identified critical security vulnerabilities requiring remediation],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
+    #box(
+      fa-icon("file-lines"),
+      baseline: 0%,
+    )
     #strong[Director of Operations]
 
 #link("https://aialignment.mit.edu")[MIT AI Alignment] \(+ #link("https://haist.ai/")[Harvard AI Safety Team]\)
-  ],
+ ⋅ #link("https://mitalignment.notion.site/MopMan-Documentation-9bbc80b1f07744458712211f4817dfc1?pvs=74")[MopMan]  ⋅ #link("https://mitalignment.notion.site/Resources-for-AIS-University-Groups-8006446beb6b45b6be3052901ac93ff7?pvs=74")[Public Resources]   ],
   right-content: [
-    Cambridge, MA
+    #strong[Feb 2023 -- Nov 2024]
 
-Feb 2023 -- Nov 2024
+Cambridge, MA
   ],
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [#link("https://mitalignment.notion.site/MopMan-Documentation-9bbc80b1f07744458712211f4817dfc1?pvs=74")[MopMan] • #link("https://mitalignment.notion.site/Resources-for-AIS-University-Groups-8006446beb6b45b6be3052901ac93ff7?pvs=74")[Public Resources]])], column-gutter: 0cm)
-
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Led operations for 300+ people across 36+ programs, managing facility logistics, interior design, digital infrastructure, and program operations],[Created MopMan automation tool, saving 10 hours\/week across 3 AI safety groups],[Halved expenses via office relocation while maintaining quality standards],[Oversaw management of Amazon Web Services for MAIA and HAIST, supporting research in fine-tuning large language models],)
+    #v(design-highlights-top-margin);#highlights([Led operations for 300+ people across 36+ programs, managing facility logistics, interior design, digital infrastructure, and program operations],[Created MopMan automation tool, saving 10 hours\/week across 3 AI safety groups],[Halved expenses via office relocation while maintaining quality standards],[Oversaw management of Amazon Web Services for MAIA and HAIST, supporting research in fine-tuning large language models],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
+    #box(
+      fa-icon("robot"),
+      baseline: 0%,
+    )
     #strong[Machine Learning Researcher]
 
 #link("https://seri.stanford.edu/")[Stanford Existential Risks Initiative] & #link("https://github.com/Algorithmic-Alignment-Lab/CommonClaim")[MIT Algorithmic Alignment Group]
-  ],
+ ⋅ #link("https://github.com/Algorithmic-Alignment-Lab/CommonClaim")[CommonClaim Dataset]   ],
   right-content: [
-    Berkeley, CA
+    #strong[June 2022 -- Oct 2022]
 
-June 2022 -- Oct 2022
+Berkeley, CA
   ],
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [#link("https://github.com/Algorithmic-Alignment-Lab/CommonClaim")[CommonClaim Dataset]])], column-gutter: 0cm)
-
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed RL fine-tuning technique for GPT-2 to autonomously identify diverse prompts resulting in harmful model outputs \(violence, disinformation, etc.\)],[Trained models, built evaluation pipeline, and created survey resulting in the CommonClaim dataset of 20,000 boolean statements],[Published research paper #link("https://arxiv.org/abs/2306.09442")[Explore, Establish, Exploit: Red Teaming Language Models from Scratch]],)
+    #v(design-highlights-top-margin);#highlights([Developed RL fine-tuning technique for GPT-2 to autonomously identify diverse prompts resulting in harmful model outputs \(violence, disinformation, etc.\)],[Trained models, built evaluation pipeline, and created survey resulting in the CommonClaim dataset of 20,000 boolean statements],[Published research paper #link("https://arxiv.org/abs/2306.09442")[Explore, Establish, Exploit: Red Teaming Language Models from Scratch]],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
+    #box(
+      fa-icon("globe"),
+      baseline: 0%,
+    )
     #strong[Full Stack Web Developer]
 
-MIT's Civic Data Design Lab \(CDDL\)
+#link("https://civicdatadesignlab.mit.edu/")[MIT's Civic Data Design Lab \(CDDL\)]
   ],
   right-content: [
-    Cambridge, MA
+    #strong[May 2022 -- June 2022]
 
-May 2022 -- June 2022
+Cambridge, MA
   ],
 )
 #one-col-entry(
   content: [
     #v(design-highlights-top-margin);#highlights([Delivered a full-stack web platform and WhatsApp interface in under three weeks],[Implemented contribution form web page with React, SASS, REST API, and Node],[Created WhatsApp informational messaging interface with Twilio],[Developed script to compress image sizes on MongoDB],)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[Executive Officer]
-
-Effective Altruism MIT
-  ],
-  right-content: [
-    Cambridge, MA
-
-Dec 2021 -- May 2022
-  ],
-)
-#one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([Connected students with impactful careers and raised awareness on neglected global issues],[Gave presentations, managed office, and executed educational and philosophical programs],[Responsible for four to twelve significantly altered career plans],)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[Founder & Tech Care Specialist]
-
-Culp Computer Services LLC
-  ],
-  right-content: [
-    Sarasota, FL
-
-June 2020 -- Aug 2021
-  ],
-)
-#one-col-entry(
-  content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [#link("http://facebook.com/CulpComputerServices/")[Facebook]])], column-gutter: 0cm)
-
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Founded a small-scale business offering personal computer solutions from home theater to computer repair],[Provided specialty care and service to around two dozen clients],[Imaged \~30 laptops, recovered files, and fixed various devices],)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[Manager, Assistant Manager, & Software Manager]
-
-Jungle Robotics FRC Team 3627
-  ],
-  right-content: [
-    Sarasota, FL
-
-Sept 2017 -- Aug 2021
-  ],
-)
-#one-col-entry(
-  content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [#link("https://www.instagram.com/frcjungle3627/")[Instagram]])], column-gutter: 0cm)
-
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Led three junior programmers in coding a 125lb robot for competition],[Oversaw administration of the 20-person team including fundraising, workshops, marketing, CAD, and construction of the robot],[Doubled team membership and taught STEM through local youth programs],)
   ],
 )
 
@@ -705,40 +658,6 @@ Sept 2017 -- Aug 2021
   ],
 )
 
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[MantisAI DevOps Engineer]
-    #v(-design-text-leading)
-
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Engineered NetworkX-based graph visualization system and DevOps infrastructure for MantisAI])], column-gutter: 0cm)
-
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Architected CI\/CD pipeline with GitHub Actions, PyTest, Docker, and AWS deployment with robust security controls],[Led PostgreSQL migration alongside comprehensive code and documentation refactoring],[Created technical demonstrations and identified critical security vulnerabilities requiring remediation],)
-  ],
-  right-content: [
-    MIT Computational Biology Lab
-
-Jan 2023 -- Dec 2023
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[LLM Red Teaming Research]
-    #v(-design-text-leading)
-
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Research project on autonomous discovery of problematic model behaviors])], column-gutter: 0cm)
-
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Published paper #link("https://arxiv.org/abs/2306.09442")[Explore, Establish, Exploit: Red Teaming Language Models from Scratch]],[Code repository at #link("https://github.com/thestephencasper/explore_establish_exploit_llms")[GitHub]],[Created the CommonClaim dataset at #link("https://github.com/Algorithmic-Alignment-Lab/CommonClaim")[GitHub]],)
-  ],
-  right-content: [
-    MIT
-
-June 2022 -- Oct 2022
-  ],
-)
-
 
 
 == Skills
@@ -778,30 +697,6 @@ June 2022 -- Oct 2022
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
   content: [- TryHackMe Badges and Experience],
-)
-
-
-== Test Scores
-
-
-#one-col-entry(
-  content: [- SAT - 1520\/1600, 2020],
-)
-#v(design-entries-vertical-space-between-entries)
-#one-col-entry(
-  content: [- ACT - 34\/36, 2020],
-)
-#v(design-entries-vertical-space-between-entries)
-#one-col-entry(
-  content: [- SAT Subject Tests - Math Level 2 \(800\/800\), Physics \(800\/800\), 2020],
-)
-
-
-== Extracurricular Activities
-
-
-#one-col-entry(
-  content: [- Pine View Support Group - Optimized 300+ students' studying experience by pooling a network of students and school resources],
 )
 
 
