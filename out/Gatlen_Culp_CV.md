@@ -20,44 +20,26 @@
 
 - Sept 2024 -- present
 - Remote
-- Developed CLI tools, evaluation templates, and installers for Vivaria, a platform used by METR to conduct AI capability and risk evaluations in partnership with OpenAI, Anthropic, and US/UK AI safety institutes
-- Enhanced documentation for rapid adoption and created a [Python-based unified installation system](https://github.com/METR/vivaria/pull/721) replacing legacy shell scripts
-- Improved reliability and maintainability while adhering to project standards with comprehensive testing suites and technical documentation
 
 ## [MIT Computational Biology Lab](https://compbio.mit.edu/), DevOps & Full Stack Engineer
 
 - June 2024 -- Aug 2024
 - Cambridge, MA
-- Engineered NetworkX-based graph visualization system and DevOps infrastructure for MantisAI, a Django web platform for interactive text and data analysis
-- Architected CI/CD pipeline with GitHub Actions, Docker, and AWS deployment with robust security controls
-- Led PostgreSQL migration alongside comprehensive code and documentation refactoring
-- Identified critical security vulnerabilities requiring remediation
 
 ## [MIT AI Alignment](https://aialignment.mit.edu) (+ [Harvard AI Safety Team](https://haist.ai/)), Director of Operations
 
 - Feb 2023 -- Nov 2024
 - Cambridge, MA
-- Led operations for 300+ people across 36+ programs, managing facility logistics, interior design, digital infrastructure, and program operations
-- Created MopMan automation tool, saving 10 hours/week across 3 AI safety groups
-- Halved expenses via office relocation while maintaining quality standards
-- Oversaw management of Amazon Web Services for MAIA and HAIST, supporting research in fine-tuning large language models
 
 ## [Stanford Existential Risks Initiative](https://seri.stanford.edu/) & [MIT Algorithmic Alignment Group](https://github.com/Algorithmic-Alignment-Lab/CommonClaim), Machine Learning Researcher
 
 - June 2022 -- Oct 2022
 - Berkeley, CA
-- Developed RL fine-tuning technique for GPT-2 to autonomously identify diverse prompts resulting in harmful model outputs (violence, disinformation, etc.)
-- Trained models, built evaluation pipeline, and created survey resulting in the CommonClaim dataset of 20,000 boolean statements
-- Published research paper [Explore, Establish, Exploit: Red Teaming Language Models from Scratch](https://arxiv.org/abs/2306.09442)
 
 ## [MIT's Civic Data Design Lab (CDDL)](https://civicdatadesignlab.mit.edu/), Full Stack Web Developer
 
 - May 2022 -- June 2022
 - Cambridge, MA
-- Delivered a full-stack web platform and WhatsApp interface in under three weeks
-- Implemented contribution form web page with React, SASS, REST API, and Node
-- Created WhatsApp informational messaging interface with Twilio
-- Developed script to compress image sizes on MongoDB
 
 # Certifications and Awards
 

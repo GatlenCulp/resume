@@ -18,12 +18,12 @@
 #let design-section-titles-line-thickness = 5pt
 #let design-section-titles-font-size = 1.2em
 #let design-section-titles-type = "with-parial-line"
-#let design-section-titles-vertical-space-above = 0.5cm
+#let design-section-titles-vertical-space-above = 0.65cm
 #let design-section-titles-vertical-space-below = 0.5cm
 #let design-section-titles-small-caps = false
 #let design-links-use-external-link-icon = false
 #let design-text-font-size = 11pt
-#let design-text-leading = 0.4em
+#let design-text-leading = 0.6em
 #let design-text-font-family = "Source Sans 3"
 #let design-text-alignment = "justified"
 #let design-text-date-and-location-column-alignment = right
@@ -34,7 +34,7 @@
 #let design-header-name-bold = true
 #let design-header-connections-font-family = "Poppins"
 #let design-header-vertical-space-between-name-and-connections = 0.3cm
-#let design-header-vertical-space-between-connections-and-first-section = 0.5cm
+#let design-header-vertical-space-between-connections-and-first-section = 0.8cm
 #let design-header-use-icons-for-connections = true
 #let design-header-horizontal-space-between-connections = 0.5cm
 #let design-header-separator-between-connections = ""
@@ -45,11 +45,11 @@
 #let design-highlights-left-margin = 0.3cm
 #let design-highlights-vertical-space-between-highlights = 0.25cm
 #let design-highlights-horizontal-space-between-bullet-and-highlights = 0.4em
-#let design-entries-vertical-space-between-entries = 1.2em
+#let design-entries-vertical-space-between-entries = 1.3em
 #let design-entries-date-and-location-width = 4.15cm
 #let design-entries-allow-page-break-in-entries = false
 #let design-entries-horizontal-space-between-columns = 0.1cm
-#let design-entries-left-and-right-margin = 0.1cm
+#let design-entries-left-and-right-margin = 0.2cm
 #let design-page-top-margin = 1.3cm
 #let design-page-bottom-margin = 1.3cm
 #let design-page-left-margin = 1.3cm
@@ -503,7 +503,7 @@ Remote
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Developed CLI tools, evaluation templates, and installers for Vivaria, a platform used by METR to conduct AI capability and risk evaluations in partnership with OpenAI, Anthropic, and US\/UK AI safety institutes],[Enhanced documentation for rapid adoption and created a #link("https://github.com/METR/vivaria/pull/721")[Python-based unified installation system] replacing legacy shell scripts],[Improved reliability and maintainability while adhering to project standards with comprehensive testing suites and technical documentation],)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Developed CLI tools, evaluation templates, and installers for #link("https://vivaria.metr.org/")[Vivaria], a platform used by METR to conduct AI capability and risk evaluations in partnership with OpenAI, Anthropic, and US\/UK AI safety institutes. Enhanced documentation for rapid adoption.])], column-gutter: 0cm)
   ],
 )
 
@@ -526,7 +526,7 @@ Cambridge, MA
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Engineered NetworkX-based graph visualization system and DevOps infrastructure for MantisAI, a Django web platform for interactive text and data analysis],[Architected CI\/CD pipeline with GitHub Actions, Docker, and AWS deployment with robust security controls],[Led PostgreSQL migration alongside comprehensive code and documentation refactoring],[Identified critical security vulnerabilities requiring remediation],)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Engineered NetworkX-based graph visualization system and DevOps infrastructure for #link("https://home.withmantis.com/")[MantisAI], a Django web platform for interactive text and data analysis. Architected CI\/CD pipeline with GitHub Actions, Docker, and AWS deployment. Led PostgreSQL migration, identified critical security vulnerabilities, and lead a project-wide codebase and documentation refactor.])], column-gutter: 0cm)
   ],
 )
 
@@ -549,7 +549,7 @@ Cambridge, MA
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Led operations for 300+ people across 36+ programs, managing facility logistics, interior design, digital infrastructure, and program operations],[Created MopMan automation tool, saving 10 hours\/week across 3 AI safety groups],[Halved expenses via office relocation while maintaining quality standards],[Oversaw management of Amazon Web Services for MAIA and HAIST, supporting research in fine-tuning large language models],)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Led operations for 300+ people across 36+ programs. Created #link("https://mitalignment.notion.site/MopMan-Documentation-9bbc80b1f07744458712211f4817dfc1?pvs=74")[MopMan] automation tool saving 10 hours\/week across 3 AI safety groups. Halved expenses via office relocation. Managed facility logistics, interior design, digital infrastructure, and program operations.])], column-gutter: 0cm)
   ],
 )
 
@@ -572,7 +572,7 @@ Berkeley, CA
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Developed RL fine-tuning technique for GPT-2 to autonomously identify diverse prompts resulting in harmful model outputs \(violence, disinformation, etc.\)],[Trained models, built evaluation pipeline, and created survey resulting in the CommonClaim dataset of 20,000 boolean statements],[Published research paper #link("https://arxiv.org/abs/2306.09442")[Explore, Establish, Exploit: Red Teaming Language Models from Scratch]],)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Developed RL fine-tuning technique for GPT-2 to autonomously identify diverse prompts resulting in harmful model outputs \(violence, disinformation, etc.\). Trained models, built evaluation pipeline, and created survey resulting in the #link("https://github.com/Algorithmic-Alignment-Lab/CommonClaim")[CommonClaim] dataset of 20,000 boolean statements. Paper - \"#link("https://arxiv.org/abs/2306.09442")[Explore, Establish, Exploit- Red Teaming Language Models from Scratch]\".])], column-gutter: 0cm)
   ],
 )
 
@@ -595,7 +595,7 @@ Cambridge, MA
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Delivered a full-stack web platform and WhatsApp interface in under three weeks],[Implemented contribution form web page with React, SASS, REST API, and Node],[Created WhatsApp informational messaging interface with Twilio],[Developed script to compress image sizes on MongoDB],)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Delivered a full-stack #link("https://livingheritage.mit.edu/")[web platform] and WhatsApp interface in under three weeks. Implemented contribution form web page with React, SASS, REST API, and Node. Created WhatsApp informational messaging interface with Twilio. Developed script to compress image sizes on MongoDB.])], column-gutter: 0cm)
   ],
 )
 

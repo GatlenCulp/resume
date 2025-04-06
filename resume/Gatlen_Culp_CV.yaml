@@ -55,11 +55,10 @@ cv:
           - "[Eval Templates](https://github.com/METR/vivaria/pull/710)"
         emoji_icon: 📐
         fa_icon: ruler-combined
-        # summary: "[Vivaria](https://vivaria.metr.org/) • [Homebrew](https://github.com/GatlenCulp/homebrew-vivaria/) • [Eval Templates](https://github.com/METR/vivaria/pull/710)"
-        highlights:
-          - Developed CLI tools, evaluation templates, and installers for Vivaria, a platform used by METR to conduct AI capability and risk evaluations in partnership with OpenAI, Anthropic, and US/UK AI safety institutes
-          - Enhanced documentation for rapid adoption and created a [Python-based unified installation system](https://github.com/METR/vivaria/pull/721) replacing legacy shell scripts
-          - Improved reliability and maintainability while adhering to project standards with comprehensive testing suites and technical documentation
+        summary: Developed CLI tools, evaluation templates, and installers for [Vivaria](https://vivaria.metr.org/), a platform used by METR to conduct AI capability and risk evaluations in partnership with OpenAI, Anthropic, and US/UK AI safety institutes. Enhanced documentation for rapid adoption.
+        # highlights:
+        #   - Enhanced Vivaria CLI tooling with project templates and installers. Vivaria is a platform used by METR to conduct AI capability and risk evaluations in partnership with OpenAI, Anthropic, and US/UK AI safety institutes
+        #   - Improved reliability and maintainability while adhering to project standards with comprehensive testing suites and technical documentation
       - company: "[MIT Computational Biology Lab](https://compbio.mit.edu/)"
         position: DevOps & Full Stack Engineer
         start_date: 2024-06
@@ -69,11 +68,12 @@ cv:
         fa_icon: spider
         links:
           - "[MantisAI Website](https://home.withmantis.com/)"
-        highlights:
-          - Engineered NetworkX-based graph visualization system and DevOps infrastructure for MantisAI, a Django web platform for interactive text and data analysis
-          - Architected CI/CD pipeline with GitHub Actions, Docker, and AWS deployment with robust security controls
-          - Led PostgreSQL migration alongside comprehensive code and documentation refactoring
-          - Identified critical security vulnerabilities requiring remediation
+        summary: Engineered NetworkX-based graph visualization system and DevOps infrastructure for [MantisAI](https://home.withmantis.com/), a Django web platform for interactive text and data analysis. Architected CI/CD pipeline with GitHub Actions, Docker, and AWS deployment. Led PostgreSQL migration, identified critical security vulnerabilities, and lead a project-wide codebase and documentation refactor.
+        # highlights:
+        #   - Engineered NetworkX-based graph visualization system and DevOps infrastructure for MantisAI, a Django web platform for interactive text and data analysis
+        #   - Architected CI/CD pipeline with GitHub Actions, Docker, and AWS deployment with robust security controls
+        #   - Led PostgreSQL migration alongside comprehensive code and documentation refactoring
+        #   - Identified critical security vulnerabilities requiring remediation
       - company: "[MIT AI Alignment](https://aialignment.mit.edu) (+ [Harvard AI Safety Team](https://haist.ai/))"
         position: Director of Operations
         start_date: 2023-02
@@ -84,12 +84,12 @@ cv:
         links:
           - "[MopMan](https://mitalignment.notion.site/MopMan-Documentation-9bbc80b1f07744458712211f4817dfc1?pvs=74)"
           - "[Public Resources](https://mitalignment.notion.site/Resources-for-AIS-University-Groups-8006446beb6b45b6be3052901ac93ff7?pvs=74)"
-        # summary: "[MopMan](https://mitalignment.notion.site/MopMan-Documentation-9bbc80b1f07744458712211f4817dfc1?pvs=74) • [Public Resources](https://mitalignment.notion.site/Resources-for-AIS-University-Groups-8006446beb6b45b6be3052901ac93ff7?pvs=74)"
-        highlights:
-          - Led operations for 300+ people across 36+ programs, managing facility logistics, interior design, digital infrastructure, and program operations
-          - Created MopMan automation tool, saving 10 hours/week across 3 AI safety groups
-          - Halved expenses via office relocation while maintaining quality standards
-          - Oversaw management of Amazon Web Services for MAIA and HAIST, supporting research in fine-tuning large language models
+        summary: Led operations for 300+ people across 36+ programs. Created [MopMan](https://mitalignment.notion.site/MopMan-Documentation-9bbc80b1f07744458712211f4817dfc1?pvs=74) automation tool saving 10 hours/week across 3 AI safety groups. Halved expenses via office relocation. Managed facility logistics, interior design, digital infrastructure, and program operations.
+        # highlights:
+        #   - Led operations for 300+ people across 36+ programs, managing facility logistics, interior design, digital infrastructure, and program operations
+        #   - Created MopMan automation tool, saving 10 hours/week across 3 AI safety groups
+        #   - Halved expenses via office relocation while maintaining quality standards
+        #   - Oversaw management of Amazon Web Services for MAIA and HAIST, supporting research in fine-tuning large language models
       - company: "[Stanford Existential Risks Initiative](https://seri.stanford.edu/) & [MIT Algorithmic Alignment Group](https://github.com/Algorithmic-Alignment-Lab/CommonClaim)"
         position: Machine Learning Researcher
         start_date: 2022-06
@@ -99,22 +99,22 @@ cv:
         fa_icon: robot
         links:
           - "[CommonClaim](https://github.com/Algorithmic-Alignment-Lab/CommonClaim)"
-        # summary: "[CommonClaim Dataset](https://github.com/Algorithmic-Alignment-Lab/CommonClaim)"
-        highlights:
-          - Developed RL fine-tuning technique for GPT-2 to autonomously identify diverse prompts resulting in harmful model outputs (violence, disinformation, etc.)
-          - Trained models, built evaluation pipeline, and created survey resulting in the CommonClaim dataset of 20,000 boolean statements
-          - "Published research paper [Explore, Establish, Exploit: Red Teaming Language Models from Scratch](https://arxiv.org/abs/2306.09442)"
+        summary: Developed RL fine-tuning technique for GPT-2 to autonomously identify diverse prompts resulting in harmful model outputs (violence, disinformation, etc.). Trained models, built evaluation pipeline, and created survey resulting in the [CommonClaim](https://github.com/Algorithmic-Alignment-Lab/CommonClaim) dataset of 20,000 boolean statements. Paper - "[Explore, Establish, Exploit- Red Teaming Language Models from Scratch](https://arxiv.org/abs/2306.09442)".
+        # highlights:
+        #   - Developed RL fine-tuning technique for GPT-2 to autonomously identify diverse prompts resulting in harmful model outputs (violence, disinformation, etc.)
+        #   - Trained models, built evaluation pipeline, and created survey resulting in the CommonClaim dataset of 20,000 boolean statements
+        #   - "Published research paper [Explore, Establish, Exploit: Red Teaming Language Models from Scratch](https://arxiv.org/abs/2306.09442)"
       - company: "[MIT's Civic Data Design Lab (CDDL)](https://civicdatadesignlab.mit.edu/)"
         position: Full Stack Web Developer
         start_date: 2022-05
         end_date: 2022-06
         location: Cambridge, MA
-        summary: ""
-        highlights:
-          - Delivered a full-stack web platform and WhatsApp interface in under three weeks
-          - Implemented contribution form web page with React, SASS, REST API, and Node
-          - Created WhatsApp informational messaging interface with Twilio
-          - Developed script to compress image sizes on MongoDB
+        summary: Delivered a full-stack [web platform](https://livingheritage.mit.edu/) and WhatsApp interface in under three weeks. Implemented contribution form web page with React, SASS, REST API, and Node. Created WhatsApp informational messaging interface with Twilio. Developed script to compress image sizes on MongoDB.
+        # highlights:
+        #   - Delivered a full-stack web platform and WhatsApp interface in under three weeks
+        #   - Implemented contribution form web page with React, SASS, REST API, and Node
+        #   - Created WhatsApp informational messaging interface with Twilio
+        #   - Developed script to compress image sizes on MongoDB
         emoji_icon: 🌐
         fa_icon: globe
       # - company: Effective Altruism MIT
