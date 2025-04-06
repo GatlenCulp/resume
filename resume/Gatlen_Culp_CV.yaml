@@ -39,7 +39,7 @@ cv:
         area: Computer Science with a concentration in AI & Decision Making # w/ Minor in Economics
         degree: BS
         start_date: 2021-09
-        end_date: 2026-05
+        end_date: 2025-12
         location: Cambridge, MA
         emoji_icon: 🏫
         fa_icon: university
@@ -55,7 +55,7 @@ cv:
           - "[Eval Templates](https://github.com/METR/vivaria/pull/710)"
         emoji_icon: 📐
         fa_icon: ruler-combined
-        summary: Developed CLI tools, evaluation templates, and installers for [Vivaria](https://vivaria.metr.org/), a platform used by METR to conduct AI capability and risk evaluations in partnership with OpenAI, Anthropic, and US/UK AI safety institutes. Enhanced documentation for rapid adoption.
+        summary: Developed CLI tools, evaluation templates, and installers for [Vivaria](https://vivaria.metr.org/), a platform used by METR to conduct AI capability and risk evaluations in partnership with OpenAI, Anthropic, and US/UK AI safety institutes. Enhanced documentation for rapid adoption. Investigated integrating  SWE-Agent and UK AISI's Inspect framework
         # highlights:
         #   - Enhanced Vivaria CLI tooling with project templates and installers. Vivaria is a platform used by METR to conduct AI capability and risk evaluations in partnership with OpenAI, Anthropic, and US/UK AI safety institutes
         #   - Improved reliability and maintainability while adhering to project standards with comprehensive testing suites and technical documentation
@@ -68,7 +68,7 @@ cv:
         fa_icon: spider
         links:
           - "[MantisAI Website](https://home.withmantis.com/)"
-        summary: Engineered NetworkX-based graph visualization system and DevOps infrastructure for [MantisAI](https://home.withmantis.com/), a Django web platform for interactive text and data analysis. Architected CI/CD pipeline with GitHub Actions, Docker, and AWS deployment. Led PostgreSQL migration, identified critical security vulnerabilities, and lead a project-wide codebase and documentation refactor.
+        summary: Engineered NetworkX-based graph visualization system, DevOps infrastructure, and testing suite for [MantisAI](https://home.withmantis.com/), a Django web platform for interactive text and data analysis. Architected CI/CD pipeline with GitHub Actions, Docker, and AWS deployment. Led PostgreSQL migration, identified critical security vulnerabilities, and lead a project-wide codebase and documentation refactor.
         # highlights:
         #   - Engineered NetworkX-based graph visualization system and DevOps infrastructure for MantisAI, a Django web platform for interactive text and data analysis
         #   - Architected CI/CD pipeline with GitHub Actions, Docker, and AWS deployment with robust security controls
@@ -84,7 +84,8 @@ cv:
         links:
           - "[MopMan](https://mitalignment.notion.site/MopMan-Documentation-9bbc80b1f07744458712211f4817dfc1?pvs=74)"
           - "[Public Resources](https://mitalignment.notion.site/Resources-for-AIS-University-Groups-8006446beb6b45b6be3052901ac93ff7?pvs=74)"
-        summary: Led operations for 300+ people across 36+ programs. Created [MopMan](https://mitalignment.notion.site/MopMan-Documentation-9bbc80b1f07744458712211f4817dfc1?pvs=74) automation tool saving 10 hours/week across 3 AI safety groups. Halved expenses via office relocation. Managed facility logistics, interior design, digital infrastructure, and program operations.
+          - "[GatPack](https://github.com/GatlenCulp/gatpack)"
+        summary: Led operations for student organization across 300+ people and 36+ programs. Created [MopMan](https://mitalignment.notion.site/MopMan-Documentation-9bbc80b1f07744458712211f4817dfc1?pvs=74) and [GatPack](https://github.com/GatlenCulp/gatpack) automation tooling saving 7 hours/week across 3+ AI safety groups. Halved expenses via office relocation. Managed facility logistics, interior design, digital infrastructure, communications, and program operations.
         # highlights:
         #   - Led operations for 300+ people across 36+ programs, managing facility logistics, interior design, digital infrastructure, and program operations
         #   - Created MopMan automation tool, saving 10 hours/week across 3 AI safety groups
@@ -99,7 +100,7 @@ cv:
         fa_icon: robot
         links:
           - "[CommonClaim](https://github.com/Algorithmic-Alignment-Lab/CommonClaim)"
-        summary: Developed RL fine-tuning technique for GPT-2 to autonomously identify diverse prompts resulting in harmful model outputs (violence, disinformation, etc.). Trained models, built evaluation pipeline, and created survey resulting in the [CommonClaim](https://github.com/Algorithmic-Alignment-Lab/CommonClaim) dataset of 20,000 boolean statements. Paper - "[Explore, Establish, Exploit- Red Teaming Language Models from Scratch](https://arxiv.org/abs/2306.09442)".
+        summary: Developed RL fine-tuning technique for GPT-2 to autonomously identify diverse prompts resulting in harmful model outputs (violence, disinformation, etc.). Built evaluation pipelines and created survey resulting in the [CommonClaim](https://github.com/Algorithmic-Alignment-Lab/CommonClaim) dataset of 20,000 boolean statements. Paper - "[Explore, Establish, Exploit- Red Teaming Language Models from Scratch](https://arxiv.org/abs/2306.09442)".
         # highlights:
         #   - Developed RL fine-tuning technique for GPT-2 to autonomously identify diverse prompts resulting in harmful model outputs (violence, disinformation, etc.)
         #   - Trained models, built evaluation pipeline, and created survey resulting in the CommonClaim dataset of 20,000 boolean statements
@@ -109,7 +110,7 @@ cv:
         start_date: 2022-05
         end_date: 2022-06
         location: Cambridge, MA
-        summary: Delivered a full-stack [web platform](https://livingheritage.mit.edu/) and WhatsApp interface in under three weeks. Implemented contribution form web page with React, SASS, REST API, and Node. Created WhatsApp informational messaging interface with Twilio. Developed script to compress image sizes on MongoDB.
+        summary: Finalized [UN Heritage Website](https://livingheritage.mit.edu/) and WhatsApp interface in under three weeks. Implemented contribution web-form using React, SASS, REST API, and Node. Created WhatsApp informational messaging interface with Twilio. Developed image compression script to improve MongoDB load times.
         # highlights:
         #   - Delivered a full-stack web platform and WhatsApp interface in under three weeks
         #   - Implemented contribution form web page with React, SASS, REST API, and Node
@@ -202,7 +203,7 @@ cv:
     #       - gears
     #       - hand-fist
     #       - building-columns
-    certifications_and_awards:
+    misc:
       - label: Professional Certifications
         details: "[AWS Certified Cloud Practitioner](https://www.credly.com/badges/83bd3cf9-7488-4954-97bf-e3575973ce2d/public_url) (Dec 2023 - Dec 2026), Autodesk Certified User - Inventor, OSHA 10-Hour General Industry (Feb 2020)"
         emoji_icons:
@@ -219,6 +220,16 @@ cv:
         fa_icons:
           - trophy
           - lock
+      - label: Notable Projects
+        details: "[OpenGesture](https://www.linkedin.com/feed/update/urn:li:activity:6697359801967607808/) - OpenCV app for custom keyboard/mouse inputs, [Transformative AI](https://drive.google.com/file/d/1WwNgYYWfpA8-xY6De4dTSH_6tmojpW30/view?usp=sharing) - Technical article on AI trajectory and impacts, [Personal Blog](http://gatlen.blog) - Containing various notes and thoughts, [GOTem](https://github.com/GatlenCulp/gatlens-opinionated-template) - Cutting-edge, opinionated, and ambitious project builder for power users and researchers."
+        emoji_icons:
+          - 👌
+          - 🌐
+          - 📈
+        fa_icons:
+          - hand-point-up
+          - globe
+          - chart-line
     # test_scores:
     #   - bullet: SAT - 1520/1600, 2020
     #   - bullet: ACT - 34/36, 2020

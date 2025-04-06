@@ -474,7 +474,7 @@
 Computer Science with a concentration in AI & Decision Making
   ],
   right-content: [
-    #strong[Sept 2021 -- May 2026]
+    #strong[Sept 2021 -- Dec 2025]
 
 Cambridge, MA
   ],
@@ -503,7 +503,7 @@ Remote
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Developed CLI tools, evaluation templates, and installers for #link("https://vivaria.metr.org/")[Vivaria], a platform used by METR to conduct AI capability and risk evaluations in partnership with OpenAI, Anthropic, and US\/UK AI safety institutes. Enhanced documentation for rapid adoption.])], column-gutter: 0cm)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Developed CLI tools, evaluation templates, and installers for #link("https://vivaria.metr.org/")[Vivaria], a platform used by METR to conduct AI capability and risk evaluations in partnership with OpenAI, Anthropic, and US\/UK AI safety institutes. Enhanced documentation for rapid adoption. Investigated integrating  SWE-Agent and UK AISI's Inspect framework])], column-gutter: 0cm)
   ],
 )
 
@@ -526,7 +526,7 @@ Cambridge, MA
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Engineered NetworkX-based graph visualization system and DevOps infrastructure for #link("https://home.withmantis.com/")[MantisAI], a Django web platform for interactive text and data analysis. Architected CI\/CD pipeline with GitHub Actions, Docker, and AWS deployment. Led PostgreSQL migration, identified critical security vulnerabilities, and lead a project-wide codebase and documentation refactor.])], column-gutter: 0cm)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Engineered NetworkX-based graph visualization system, DevOps infrastructure, and testing suite for #link("https://home.withmantis.com/")[MantisAI], a Django web platform for interactive text and data analysis. Architected CI\/CD pipeline with GitHub Actions, Docker, and AWS deployment. Led PostgreSQL migration, identified critical security vulnerabilities, and lead a project-wide codebase and documentation refactor.])], column-gutter: 0cm)
   ],
 )
 
@@ -540,7 +540,7 @@ Cambridge, MA
     #strong[Director of Operations]
 
 #link("https://aialignment.mit.edu")[MIT AI Alignment] \(+ #link("https://haist.ai/")[Harvard AI Safety Team]\)
- ⋅ #link("https://mitalignment.notion.site/MopMan-Documentation-9bbc80b1f07744458712211f4817dfc1?pvs=74")[MopMan]  ⋅ #link("https://mitalignment.notion.site/Resources-for-AIS-University-Groups-8006446beb6b45b6be3052901ac93ff7?pvs=74")[Public Resources]   ],
+ ⋅ #link("https://mitalignment.notion.site/MopMan-Documentation-9bbc80b1f07744458712211f4817dfc1?pvs=74")[MopMan]  ⋅ #link("https://mitalignment.notion.site/Resources-for-AIS-University-Groups-8006446beb6b45b6be3052901ac93ff7?pvs=74")[Public Resources]  ⋅ #link("https://github.com/GatlenCulp/gatpack")[GatPack]   ],
   right-content: [
     #strong[Feb 2023 -- Nov 2024]
 
@@ -549,7 +549,7 @@ Cambridge, MA
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Led operations for 300+ people across 36+ programs. Created #link("https://mitalignment.notion.site/MopMan-Documentation-9bbc80b1f07744458712211f4817dfc1?pvs=74")[MopMan] automation tool saving 10 hours\/week across 3 AI safety groups. Halved expenses via office relocation. Managed facility logistics, interior design, digital infrastructure, and program operations.])], column-gutter: 0cm)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Led operations for student organization across 300+ people and 36+ programs. Created #link("https://mitalignment.notion.site/MopMan-Documentation-9bbc80b1f07744458712211f4817dfc1?pvs=74")[MopMan] and #link("https://github.com/GatlenCulp/gatpack")[GatPack] automation tooling saving 7 hours\/week across 3+ AI safety groups. Halved expenses via office relocation. Managed facility logistics, interior design, digital infrastructure, communications, and program operations.])], column-gutter: 0cm)
   ],
 )
 
@@ -572,7 +572,7 @@ Berkeley, CA
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Developed RL fine-tuning technique for GPT-2 to autonomously identify diverse prompts resulting in harmful model outputs \(violence, disinformation, etc.\). Trained models, built evaluation pipeline, and created survey resulting in the #link("https://github.com/Algorithmic-Alignment-Lab/CommonClaim")[CommonClaim] dataset of 20,000 boolean statements. Paper - \"#link("https://arxiv.org/abs/2306.09442")[Explore, Establish, Exploit- Red Teaming Language Models from Scratch]\".])], column-gutter: 0cm)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Developed RL fine-tuning technique for GPT-2 to autonomously identify diverse prompts resulting in harmful model outputs \(violence, disinformation, etc.\). Built evaluation pipelines and created survey resulting in the #link("https://github.com/Algorithmic-Alignment-Lab/CommonClaim")[CommonClaim] dataset of 20,000 boolean statements. Paper - \"#link("https://arxiv.org/abs/2306.09442")[Explore, Establish, Exploit- Red Teaming Language Models from Scratch]\".])], column-gutter: 0cm)
   ],
 )
 
@@ -595,13 +595,13 @@ Cambridge, MA
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Delivered a full-stack #link("https://livingheritage.mit.edu/")[web platform] and WhatsApp interface in under three weeks. Implemented contribution form web page with React, SASS, REST API, and Node. Created WhatsApp informational messaging interface with Twilio. Developed script to compress image sizes on MongoDB.])], column-gutter: 0cm)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Finalized #link("https://livingheritage.mit.edu/")[UN Heritage Website] and WhatsApp interface in under three weeks. Implemented contribution web-form using React, SASS, REST API, and Node. Created WhatsApp informational messaging interface with Twilio. Developed image compression script to improve MongoDB load times.])], column-gutter: 0cm)
   ],
 )
 
 
 
-== Certifications and Awards
+== Misc
 
 
 #one-col-entry(
@@ -610,6 +610,10 @@ Cambridge, MA
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
   content: [#strong[Academic & Technical Awards:] #link("https://floridatsa.org/wp-content/uploads/2019/03/2019-Awards-Report.pdf")[State-Level Competitive Programming Awards] \(TSA\), '#link("https://www.contest.comap.com/highschool/contests/himcm/instructions.html#:~:text=COMAP'S%20High%20School%20Mathematical%20Contest,problem%20solving%2C%20and%20writing%20skills")[Meritorious]' Award \(HiMCM\), #link("https://tryhackme.com/p/GatlenCulp")[TryHackMe Badges and Experience]]
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [#strong[Notable Projects:] #link("https://www.linkedin.com/feed/update/urn:li:activity:6697359801967607808/")[OpenGesture] - OpenCV app for custom keyboard\/mouse inputs, #link("https://drive.google.com/file/d/1WwNgYYWfpA8-xY6De4dTSH_6tmojpW30/view?usp=sharing")[Transformative AI] - Technical article on AI trajectory and impacts, #link("http://gatlen.blog")[Personal Blog] - Containing various notes and thoughts, #link("https://github.com/GatlenCulp/gatlens-opinionated-template")[GOTem] - Cutting-edge, opinionated, and ambitious project builder for power users and researchers]
 )
 
 
