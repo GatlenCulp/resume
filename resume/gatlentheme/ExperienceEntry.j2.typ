@@ -3,8 +3,8 @@
   left-content: [
     ((* if entry.fa_icon *))
     #box(
-      fa-icon("<<entry.fa_icon|replace('fa-', '')>>"),
-      baseline: 0%,
+      fa-icon("<<entry.fa_icon>>", size: 0.7em, solid: true),
+      baseline: -10%,
     )
     ((* else *))
     <<entry.emoji_icon>>

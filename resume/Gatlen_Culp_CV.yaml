@@ -42,7 +42,7 @@ cv:
         end_date: 2026-05
         location: Cambridge, MA
         emoji_icon: 🏫
-        fa_icon: fa-university
+        fa_icon: university
     experience:
       - company: "[Model Evaluation and Threat Research (METR)](https://metr.org/)"
         position: AI Evaluations & Software Engineering Contractor
@@ -54,7 +54,7 @@ cv:
           - "[Homebrew](https://github.com/GatlenCulp/homebrew-vivaria/)"
           - "[Eval Templates](https://github.com/METR/vivaria/pull/710)"
         emoji_icon: 📐
-        fa_icon: fa-ruler-combined
+        fa_icon: ruler-combined
         # summary: "[Vivaria](https://vivaria.metr.org/) • [Homebrew](https://github.com/GatlenCulp/homebrew-vivaria/) • [Eval Templates](https://github.com/METR/vivaria/pull/710)"
         highlights:
           - Developed CLI tools, evaluation templates, and installers for Vivaria, a platform used by METR to conduct AI capability and risk evaluations in partnership with OpenAI, Anthropic, and US/UK AI safety institutes
@@ -66,7 +66,7 @@ cv:
         end_date: 2024-08
         location: Cambridge, MA
         emoji_icon: 🕷️
-        fa_icon: fa-spider
+        fa_icon: spider
         links:
           - "[MantisAI Website](https://home.withmantis.com/)"
         highlights:
@@ -80,7 +80,7 @@ cv:
         end_date: 2024-11
         location: Cambridge, MA
         emoji_icon: 📑
-        fa_icon: fa-file-lines
+        fa_icon: file-lines
         links:
           - "[MopMan](https://mitalignment.notion.site/MopMan-Documentation-9bbc80b1f07744458712211f4817dfc1?pvs=74)"
           - "[Public Resources](https://mitalignment.notion.site/Resources-for-AIS-University-Groups-8006446beb6b45b6be3052901ac93ff7?pvs=74)"
@@ -96,9 +96,9 @@ cv:
         end_date: 2022-10
         location: Berkeley, CA
         emoji_icon: 🦾
-        fa_icon: fa-robot
+        fa_icon: robot
         links:
-          - "[CommonClaim Dataset](https://github.com/Algorithmic-Alignment-Lab/CommonClaim)"
+          - "[CommonClaim](https://github.com/Algorithmic-Alignment-Lab/CommonClaim)"
         # summary: "[CommonClaim Dataset](https://github.com/Algorithmic-Alignment-Lab/CommonClaim)"
         highlights:
           - Developed RL fine-tuning technique for GPT-2 to autonomously identify diverse prompts resulting in harmful model outputs (violence, disinformation, etc.)
@@ -116,7 +116,7 @@ cv:
           - Created WhatsApp informational messaging interface with Twilio
           - Developed script to compress image sizes on MongoDB
         emoji_icon: 🌐
-        fa_icon: fa-globe
+        fa_icon: globe
       # - company: Effective Altruism MIT
       #   position: Executive Officer
       #   start_date: 2021-12
@@ -148,72 +148,77 @@ cv:
       #     - Led three junior programmers in coding a 125lb robot for competition
       #     - Oversaw administration of the 20-person team including fundraising, workshops, marketing, CAD, and construction of the robot
       #     - Doubled team membership and taught STEM through local youth programs
-    projects:
-      - name: "[OpenGesture](https://www.linkedin.com/feed/update/urn:li:activity:6697359801967607808/)"
-        summary: OpenCV app running a custom keyboard or mouse input using the number of fingers captured
-        emoji_icon: 👌
-        fa_icon: fa-hand-point-up
-      - name: "[UN Heritage Website](https://livingheritage.mit.edu/)"
-        summary: Delivered a full-stack web platform and WhatsApp interface in under three weeks with team
-        emoji_icon: 🪚
-        fa_icon: fa-tools
-      - name: "[Transformative AI](https://drive.google.com/file/d/1WwNgYYWfpA8-xY6De4dTSH_6tmojpW30/view?usp=sharing)"
-        summary: 33-minute-long technical article on the trajectory and impacts of AI
-        emoji_icon: 📈
-        fa_icon: fa-chart-line
-      - name: High School Achievements
-        summary: "[Florida TSA](https://floridatsa.org/wp-content/uploads/2019/03/2019-Awards-Report.pdf) Programming (2nd, 3rd place) and [HiMCM](https://www.contest.comap.com/highschool/contests/himcm/instructions.html#:~:text=COMAP'S%20High%20School%20Mathematical%20Contest,problem%20solving%2C%20and%20writing%20skills) Math Modeling (Meritorious)"
-        emoji_icon: 🏆
-        fa_icon: fa-trophy
-      - name: Pine View Support Group
-        summary: Optimized 300+ students' studying experience by pooling a network of students and school resources
-        emoji_icon: 👨‍👩‍👧‍👦
-        fa_icon: fa-people-group
-      # - name: LLM Red Teaming Research
-      #   start_date: 2022-06
-      #   end_date: 2022-10
-      #   location: MIT
-      #   summary: Research project on autonomous discovery of problematic model behaviors
-      #   highlights:
-      #     - "Published paper [Explore, Establish, Exploit: Red Teaming Language Models from Scratch](https://arxiv.org/abs/2306.09442)"
-      #     - Code repository at [GitHub](https://github.com/thestephencasper/explore_establish_exploit_llms)
-      #     - Created the CommonClaim dataset at [GitHub](https://github.com/Algorithmic-Alignment-Lab/CommonClaim)
-    skills:
-      - label: Technical Skills
-        details: Deep Learning w/ PyTorch, [AWS (Certified Practitioner)](https://www.credly.com/badges/83bd3cf9-7488-4954-97bf-e3575973ce2d/public_url), Project & Operations Strategy, Algorithms, Python
-        emoji_icons:
-          - 🤖
-          - ☁️
-          - 📑
-          - 🧮
-          - 🐍
-        fa_icons:
-          - fa-robot
-          - fa-cloud
-          - fa-file-lines
-          - fa-calculator
-          - fa-code
-      - label: Creative & Development
-        details: Adobe Suite, Demos & Documentation, Full-Stack Development and DevOps, Entrepreneurship, Economics & Policy
-        emoji_icons:
-          - 🎨
-          - 🔍
-          - ⚙️
-          - ✊
-          - 🏦
-        fa_icons:
-          - fa-paintbrush
-          - fa-magnifying-glass
-          - fa-gears
-          - fa-hand-fist
-          - fa-building-columns
+    # projects:
+    #   - label: Software Projects
+    #     details: "[OpenGesture](https://www.linkedin.com/feed/update/urn:li:activity:6697359801967607808/) - OpenCV app for custom inputs, [UN Heritage Website](https://livingheritage.mit.edu/) - Full-stack platform built in under three weeks"
+    #     emoji_icons:
+    #       - 👌
+    #       - 🌐
+    #     fa_icons:
+    #       - hand-point-up
+    #       - globe
+    #   - label: Research & Writing
+    #     details: "[Transformative AI](https://drive.google.com/file/d/1WwNgYYWfpA8-xY6De4dTSH_6tmojpW30/view?usp=sharing) - Technical article on AI trajectory and impacts, [CommonClaim Dataset](https://github.com/Algorithmic-Alignment-Lab/CommonClaim) - 20,000 boolean statements for evaluating LLMs"
+    #     emoji_icons:
+    #       - 📈
+    #       - 📚
+    #     fa_icons:
+    #       - chart-line
+    #       - book
+    # - label: Academic Achievements
+    #   details: "[Florida TSA](https://floridatsa.org/wp-content/uploads/2019/03/2019-Awards-Report.pdf) Programming Awards, '[HiMCM](https://www.contest.comap.com/highschool/contests/himcm/instructions.html#:~:text=COMAP'S%20High%20School%20Mathematical%20Contest,problem%20solving%2C%20and%20writing%20skills) Math Modeling (Meritorious)', Pine View Support Group for 300+ students"
+    #   emoji_icons:
+    #     - 🏆
+    #     - 👨‍👩‍👧‍👦
+    #   fa_icons:
+    #     - trophy
+    #     - people-group
+    # skills:
+    #   - label: Technical Skills
+    #     details: Deep Learning w/ PyTorch, [AWS (Certified Practitioner)](https://www.credly.com/badges/83bd3cf9-7488-4954-97bf-e3575973ce2d/public_url), Project & Operations Strategy, Algorithms, Python
+    #     emoji_icons:
+    #       - 🤖
+    #       - ☁️
+    #       - 📑
+    #       - 🧮
+    #       - 🐍
+    #     fa_icons:
+    #       - robot
+    #       - cloud
+    #       - file-lines
+    #       - calculator
+    #       - code
+    #   - label: Creative & Development
+    #     details: Adobe Suite, Demos & Documentation, Full-Stack Development and DevOps, Entrepreneurship, Economics & Policy
+    #     emoji_icons:
+    #       - 🎨
+    #       - 🔍
+    #       - ⚙️
+    #       - ✊
+    #       - 🏦
+    #     fa_icons:
+    #       - paintbrush
+    #       - magnifying-glass
+    #       - gears
+    #       - hand-fist
+    #       - building-columns
     certifications_and_awards:
-      - bullet: "[AWS Certified Cloud Practitioner](https://www.credly.com/badges/83bd3cf9-7488-4954-97bf-e3575973ce2d/public_url), Amazon Web Services (AWS), Dec 2023 - Dec 2026"
-      - bullet: Autodesk Certified User - Inventor
-      - bullet: OSHA 10-Hour General Industry, CareerSafe Online, Feb 2020
-      - bullet: "[State-Level Competitive Programming Awards](https://floridatsa.org/wp-content/uploads/2019/03/2019-Awards-Report.pdf) (2nd and 3rd place), Technology Student Association, 2018-2019"
-      - bullet: "'[Meritorious](https://www.contest.comap.com/highschool/contests/himcm/instructions.html#:~:text=COMAP'S%20High%20School%20Mathematical%20Contest,problem%20solving%2C%20and%20writing%20skills)' Award, High School Math Contest in Modeling (HiMCM)"
-      - bullet: TryHackMe Badges and Experience
+      - label: Professional Certifications
+        details: "[AWS Certified Cloud Practitioner](https://www.credly.com/badges/83bd3cf9-7488-4954-97bf-e3575973ce2d/public_url) (Dec 2023 - Dec 2026), Autodesk Certified User - Inventor, OSHA 10-Hour General Industry (Feb 2020)"
+        emoji_icons:
+          - ☁️
+          - 🛡️
+        fa_icons:
+          - cloud
+          - certificate
+      - label: Academic & Technical Awards
+        details: "[State-Level Competitive Programming Awards](https://floridatsa.org/wp-content/uploads/2019/03/2019-Awards-Report.pdf) (TSA), '[Meritorious](https://www.contest.comap.com/highschool/contests/himcm/instructions.html#:~:text=COMAP'S%20High%20School%20Mathematical%20Contest,problem%20solving%2C%20and%20writing%20skills)' Award (HiMCM), [TryHackMe Badges and Experience](https://tryhackme.com/p/GatlenCulp)"
+        emoji_icons:
+          - 🏆
+          - 🔐
+        fa_icons:
+          - trophy
+          - lock
     # test_scores:
     #   - bullet: SAT - 1520/1600, 2020
     #   - bullet: ACT - 34/36, 2020

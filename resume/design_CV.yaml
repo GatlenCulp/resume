@@ -11,13 +11,13 @@ design:
   colors:
     text: black
     name: "#483D8B"
-    connections: "#483D8B"
+    connections: "#555555"
     section_titles: "#483D8B"
     links: "#483D8B"
     last_updated_date_and_page_numbering: grey
   text:
     font_family: Source Sans 3
-    font_size: 10pt
+    font_size: 11pt
     leading: 0.4em
     alignment: justified
     date_and_location_column_alignment: right
@@ -43,8 +43,8 @@ design:
     bold: true
     small_caps: false
     line_thickness: 5pt
-    vertical_space_above: 0.3cm
-    vertical_space_below: 0.2cm
+    vertical_space_above: 0.5cm
+    vertical_space_below: 0.5cm
   entries:
     date_and_location_width: 4.15cm
     left_and_right_margin: 0.1cm

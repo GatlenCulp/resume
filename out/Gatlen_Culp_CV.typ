@@ -11,18 +11,18 @@
 #let design-colors-section-titles = rgb(72, 61, 139)
 #let design-colors-last-updated-date-and-page-numbering = rgb(128, 128, 128)
 #let design-colors-name = rgb(72, 61, 139)
-#let design-colors-connections = rgb(72, 61, 139)
+#let design-colors-connections = rgb(85, 85, 85)
 #let design-colors-links = rgb(72, 61, 139)
 #let design-section-titles-font-family = "Poppins"
 #let design-section-titles-bold = true
 #let design-section-titles-line-thickness = 5pt
 #let design-section-titles-font-size = 1.2em
 #let design-section-titles-type = "with-parial-line"
-#let design-section-titles-vertical-space-above = 0.3cm
-#let design-section-titles-vertical-space-below = 0.2cm
+#let design-section-titles-vertical-space-above = 0.5cm
+#let design-section-titles-vertical-space-below = 0.5cm
 #let design-section-titles-small-caps = false
 #let design-links-use-external-link-icon = false
-#let design-text-font-size = 10pt
+#let design-text-font-size = 11pt
 #let design-text-leading = 0.4em
 #let design-text-font-family = "Source Sans 3"
 #let design-text-alignment = "justified"
@@ -488,8 +488,8 @@ Cambridge, MA
 #two-col-entry(
   left-content: [
     #box(
-      fa-icon("ruler-combined"),
-      baseline: 0%,
+      fa-icon("ruler-combined", size: 0.7em, solid: true),
+      baseline: -10%,
     )
     #strong[AI Evaluations & Software Engineering Contractor]
 
@@ -511,8 +511,8 @@ Remote
 #two-col-entry(
   left-content: [
     #box(
-      fa-icon("spider"),
-      baseline: 0%,
+      fa-icon("spider", size: 0.7em, solid: true),
+      baseline: -10%,
     )
     #strong[DevOps & Full Stack Engineer]
 
@@ -534,8 +534,8 @@ Cambridge, MA
 #two-col-entry(
   left-content: [
     #box(
-      fa-icon("file-lines"),
-      baseline: 0%,
+      fa-icon("file-lines", size: 0.7em, solid: true),
+      baseline: -10%,
     )
     #strong[Director of Operations]
 
@@ -557,13 +557,13 @@ Cambridge, MA
 #two-col-entry(
   left-content: [
     #box(
-      fa-icon("robot"),
-      baseline: 0%,
+      fa-icon("robot", size: 0.7em, solid: true),
+      baseline: -10%,
     )
     #strong[Machine Learning Researcher]
 
 #link("https://seri.stanford.edu/")[Stanford Existential Risks Initiative] & #link("https://github.com/Algorithmic-Alignment-Lab/CommonClaim")[MIT Algorithmic Alignment Group]
- ⋅ #link("https://github.com/Algorithmic-Alignment-Lab/CommonClaim")[CommonClaim Dataset]   ],
+ ⋅ #link("https://github.com/Algorithmic-Alignment-Lab/CommonClaim")[CommonClaim]   ],
   right-content: [
     #strong[June 2022 -- Oct 2022]
 
@@ -580,8 +580,8 @@ Berkeley, CA
 #two-col-entry(
   left-content: [
     #box(
-      fa-icon("globe"),
-      baseline: 0%,
+      fa-icon("globe", size: 0.7em, solid: true),
+      baseline: -10%,
     )
     #strong[Full Stack Web Developer]
 
@@ -601,102 +601,15 @@ Cambridge, MA
 
 
 
-== Projects
-
-
-
-#one-col-entry(
-  content: [
-    #link("https://www.linkedin.com/feed/update/urn:li:activity:6697359801967607808/")[#strong[OpenGesture]]
-
-    #v(-design-text-leading)
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [OpenCV app running a custom keyboard or mouse input using the number of fingers captured])], column-gutter: 0cm)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-
-#one-col-entry(
-  content: [
-    #link("https://livingheritage.mit.edu/")[#strong[UN Heritage Website]]
-
-    #v(-design-text-leading)
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Delivered a full-stack web platform and WhatsApp interface in under three weeks with team])], column-gutter: 0cm)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-
-#one-col-entry(
-  content: [
-    #link("https://drive.google.com/file/d/1WwNgYYWfpA8-xY6De4dTSH_6tmojpW30/view?usp=sharing")[#strong[Transformative AI]]
-
-    #v(-design-text-leading)
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [33-minute-long technical article on the trajectory and impacts of AI])], column-gutter: 0cm)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-
-#one-col-entry(
-  content: [
-    #strong[High School Achievements]
-
-    #v(-design-text-leading)
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [#link("https://floridatsa.org/wp-content/uploads/2019/03/2019-Awards-Report.pdf")[Florida TSA] Programming \(2nd, 3rd place\) and #link("https://www.contest.comap.com/highschool/contests/himcm/instructions.html#:~:text=COMAP'S%20High%20School%20Mathematical%20Contest,problem%20solving%2C%20and%20writing%20skills")[HiMCM] Math Modeling \(Meritorious\)])], column-gutter: 0cm)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-
-#one-col-entry(
-  content: [
-    #strong[Pine View Support Group]
-
-    #v(-design-text-leading)
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Optimized 300+ students' studying experience by pooling a network of students and school resources])], column-gutter: 0cm)
-  ],
-)
-
-
-
-== Skills
-
-
-#one-col-entry(
-  content: [#strong[Technical Skills:] Deep Learning w\/ PyTorch, #link("https://www.credly.com/badges/83bd3cf9-7488-4954-97bf-e3575973ce2d/public_url")[AWS \(Certified Practitioner\)], Project & Operations Strategy, Algorithms, Python]
-)
-#v(design-entries-vertical-space-between-entries)
-#one-col-entry(
-  content: [#strong[Creative & Development:] Adobe Suite, Demos & Documentation, Full-Stack Development and DevOps, Entrepreneurship, Economics & Policy]
-)
-
-
 == Certifications and Awards
 
 
 #one-col-entry(
-  content: [- #link("https://www.credly.com/badges/83bd3cf9-7488-4954-97bf-e3575973ce2d/public_url")[AWS Certified Cloud Practitioner], Amazon Web Services \(AWS\), Dec 2023 - Dec 2026],
+  content: [#strong[Professional Certifications:] #link("https://www.credly.com/badges/83bd3cf9-7488-4954-97bf-e3575973ce2d/public_url")[AWS Certified Cloud Practitioner] \(Dec 2023 - Dec 2026\), Autodesk Certified User - Inventor, OSHA 10-Hour General Industry \(Feb 2020\)]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [- Autodesk Certified User - Inventor],
-)
-#v(design-entries-vertical-space-between-entries)
-#one-col-entry(
-  content: [- OSHA 10-Hour General Industry, CareerSafe Online, Feb 2020],
-)
-#v(design-entries-vertical-space-between-entries)
-#one-col-entry(
-  content: [- #link("https://floridatsa.org/wp-content/uploads/2019/03/2019-Awards-Report.pdf")[State-Level Competitive Programming Awards] \(2nd and 3rd place\), Technology Student Association, 2018-2019],
-)
-#v(design-entries-vertical-space-between-entries)
-#one-col-entry(
-  content: [- '#link("https://www.contest.comap.com/highschool/contests/himcm/instructions.html#:~:text=COMAP'S%20High%20School%20Mathematical%20Contest,problem%20solving%2C%20and%20writing%20skills")[Meritorious]' Award, High School Math Contest in Modeling \(HiMCM\)],
-)
-#v(design-entries-vertical-space-between-entries)
-#one-col-entry(
-  content: [- TryHackMe Badges and Experience],
+  content: [#strong[Academic & Technical Awards:] #link("https://floridatsa.org/wp-content/uploads/2019/03/2019-Awards-Report.pdf")[State-Level Competitive Programming Awards] \(TSA\), '#link("https://www.contest.comap.com/highschool/contests/himcm/instructions.html#:~:text=COMAP'S%20High%20School%20Mathematical%20Contest,problem%20solving%2C%20and%20writing%20skills")[Meritorious]' Award \(HiMCM\), #link("https://tryhackme.com/p/GatlenCulp")[TryHackMe Badges and Experience]]
 )
 
 

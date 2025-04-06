@@ -59,32 +59,7 @@
 - Created WhatsApp informational messaging interface with Twilio
 - Developed script to compress image sizes on MongoDB
 
-# Projects
-
-## [OpenGesture](https://www.linkedin.com/feed/update/urn:li:activity:6697359801967607808/)
-
-
-## [UN Heritage Website](https://livingheritage.mit.edu/)
-
-
-## [Transformative AI](https://drive.google.com/file/d/1WwNgYYWfpA8-xY6De4dTSH_6tmojpW30/view?usp=sharing)
-
-
-## High School Achievements
-
-
-## Pine View Support Group
-
-
-# Skills
-
-- Technical Skills: Deep Learning w/ PyTorch, [AWS (Certified Practitioner)](https://www.credly.com/badges/83bd3cf9-7488-4954-97bf-e3575973ce2d/public_url), Project & Operations Strategy, Algorithms, Python
-- Creative & Development: Adobe Suite, Demos & Documentation, Full-Stack Development and DevOps, Entrepreneurship, Economics & Policy
 # Certifications and Awards
 
-- [AWS Certified Cloud Practitioner](https://www.credly.com/badges/83bd3cf9-7488-4954-97bf-e3575973ce2d/public_url), Amazon Web Services (AWS), Dec 2023 - Dec 2026
-- Autodesk Certified User - Inventor
-- OSHA 10-Hour General Industry, CareerSafe Online, Feb 2020
-- [State-Level Competitive Programming Awards](https://floridatsa.org/wp-content/uploads/2019/03/2019-Awards-Report.pdf) (2nd and 3rd place), Technology Student Association, 2018-2019
-- '[Meritorious](https://www.contest.comap.com/highschool/contests/himcm/instructions.html#:~:text=COMAP'S%20High%20School%20Mathematical%20Contest,problem%20solving%2C%20and%20writing%20skills)' Award, High School Math Contest in Modeling (HiMCM)
-- TryHackMe Badges and Experience
+- Professional Certifications: [AWS Certified Cloud Practitioner](https://www.credly.com/badges/83bd3cf9-7488-4954-97bf-e3575973ce2d/public_url) (Dec 2023 - Dec 2026), Autodesk Certified User - Inventor, OSHA 10-Hour General Industry (Feb 2020)
+- Academic & Technical Awards: [State-Level Competitive Programming Awards](https://floridatsa.org/wp-content/uploads/2019/03/2019-Awards-Report.pdf) (TSA), '[Meritorious](https://www.contest.comap.com/highschool/contests/himcm/instructions.html#:~:text=COMAP'S%20High%20School%20Mathematical%20Contest,problem%20solving%2C%20and%20writing%20skills)' Award (HiMCM), [TryHackMe Badges and Experience](https://tryhackme.com/p/GatlenCulp)
