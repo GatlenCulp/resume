@@ -5,6 +5,9 @@
 # Old info and cached data
 old-info/
 **/old-info/
+blurbs/
+apps/
+
 
 node_modules
 

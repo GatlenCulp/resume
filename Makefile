@@ -14,7 +14,7 @@ DOCS_PORT ?= 8000
 .DEFAULT_GOAL := help
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━ Project Rules ━━━━━━━━━━━━━━━━━━━━━━━━━ #
-.PHONY: run watch
+.PHONY: run watch json-resume
 
 # For some reason, watch does not properly use the design.
 watch:
@@ -31,6 +31,10 @@ run:
 	--design resume/design_CV.yaml \
 	--markdown-path README.md
 
+json:
+	cd json-resume && \
+	npx resumed render resume.json \
+	--theme jsonresume-theme-even
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Utilities ━━━━━━━━━━━━━━━━━━━━━━━━━━━ #
 .PHONY: all help _print-logo _welcome

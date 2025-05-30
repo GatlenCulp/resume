@@ -1,0 +1,448 @@
+{
+	"$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+	"basics": {
+		"name": "Gatlen Culp",
+		"label": "Computer Science Student",
+		"image": "",
+		"email": "gculp@mit.edu",
+		"phone": "+1 (843) 754-0521",
+		"url": "http://gatlen.me",
+		"summary": "",
+		"location": {
+			"address": "",
+			"postalCode": "",
+			"city": "Cambridge",
+			"countryCode": "US",
+			"region": "MA"
+		},
+		"profiles": [
+			{
+				"network": "GitHub",
+				"username": "GatlenCulp",
+				"url": "https://github.com/GatlenCulp"
+			},
+			{
+				"network": "Google Scholar",
+				"username": "Gatlen_Culp",
+				"url": "https://scholar.google.com/citations?user=Gatlen_Culp"
+			},
+			{
+				"network": "LinkedIn",
+				"username": "gatlen-culp",
+				"url": "https://linkedin.com/in/gatlen-culp"
+			},
+			{
+				"network": "GitLab",
+				"username": "GatlenCulp",
+				"url": "https://gitlab.com/GatlenCulp"
+			},
+			{
+				"network": "Instagram",
+				"username": "gatl0n",
+				"url": "https://instagram.com/gatl0n"
+			},
+			{
+				"network": "ORCID",
+				"username": "0000-0001-5704-6251",
+				"url": "https://orcid.org/0000-0001-5704-6251"
+			},
+			{
+				"network": "StackOverflow",
+				"username": "8298372/gatlen-culp",
+				"url": "https://stackoverflow.com/users/8298372/gatlen-culp"
+			},
+			{
+				"network": "ResearchGate",
+				"username": "Gatlen_Culp",
+				"url": "https://www.researchgate.net/profile/Gatlen_Culp"
+			},
+			{
+				"network": "YouTube",
+				"username": "Th3Gam3Magn3t",
+				"url": "https://youtube.com/user/Th3Gam3Magn3t"
+			},
+			{
+				"network": "X",
+				"username": "GatlenCulp",
+				"url": "https://x.com/GatlenCulp"
+			}
+		]
+	},
+	"work": [
+		{
+			"name": "Model Evaluation and Threat Research (METR)",
+			"position": "AI Evaluations & Software Engineering Contractor",
+			"url": "https://metr.org/",
+			"startDate": "2024-09",
+			"endDate": "present",
+			"summary": "Developed CLI tools, evaluation templates, and installers for [Vivaria](https://vivaria.metr.org/), a platform used by METR to conduct AI capability and risk evaluations in partnership with OpenAI, Anthropic, and US/UK AI safety institutes. Enhanced documentation for rapid adoption. Investigated integrating SWE-Agent and UK AISI's Inspect framework",
+			"highlights": [
+				"Enhanced Vivaria CLI tooling with project templates and installers. Vivaria is a platform used by METR to conduct AI capability and risk evaluations in partnership with OpenAI, Anthropic, and US/UK AI safety institutes",
+				"Improved reliability and maintainability while adhering to project standards with comprehensive testing suites and technical documentation"
+			],
+			"location": "Remote",
+			"links": [
+				"https://vivaria.metr.org/",
+				"https://github.com/GatlenCulp/homebrew-vivaria/",
+				"https://github.com/METR/vivaria/pull/710"
+			]
+		},
+		{
+			"name": "MIT Computational Biology Lab",
+			"position": "DevOps & Full Stack Engineer",
+			"url": "https://compbio.mit.edu/",
+			"startDate": "2024-06",
+			"endDate": "2024-08",
+			"summary": "Engineered NetworkX-based graph visualization system, DevOps infrastructure, and testing suite for [MantisAI](https://home.withmantis.com/), a Django web platform for interactive text and data analysis. Architected CI/CD pipeline with GitHub Actions, Docker, and AWS deployment. Led PostgreSQL migration, identified critical security vulnerabilities, and lead a project-wide codebase and documentation refactor.",
+			"highlights": [
+				"Engineered NetworkX-based graph visualization system and DevOps infrastructure for MantisAI, a Django web platform for interactive text and data analysis",
+				"Architected CI/CD pipeline with GitHub Actions, Docker, and AWS deployment with robust security controls",
+				"Led PostgreSQL migration alongside comprehensive code and documentation refactoring",
+				"Identified critical security vulnerabilities requiring remediation"
+			],
+			"location": "Cambridge, MA",
+			"links": [
+				"https://home.withmantis.com/"
+			]
+		},
+		{
+			"name": "MIT AI Alignment (+ Harvard AI Safety Team)",
+			"position": "Director of Operations",
+			"url": "https://aialignment.mit.edu",
+			"startDate": "2023-02",
+			"endDate": "2024-11",
+			"summary": "Led operations for student organization across 300+ people and 36+ programs. Created [MopMan](https://mitalignment.notion.site/MopMan-Documentation-9bbc80b1f07744458712211f4817dfc1?pvs=74) and [GatPack](https://github.com/GatlenCulp/gatpack) automation tooling saving 7 hours/week across 3+ AI safety groups. Halved expenses via office relocation. Managed facility logistics, interior design, digital infrastructure, communications, and program operations.",
+			"highlights": [
+				"Led operations for 300+ people across 36+ programs, managing facility logistics, interior design, digital infrastructure, and program operations",
+				"Created MopMan automation tool, saving 10 hours/week across 3 AI safety groups",
+				"Halved expenses via office relocation while maintaining quality standards",
+				"Oversaw management of Amazon Web Services for MAIA and HAIST, supporting research in fine-tuning large language models"
+			],
+			"location": "Cambridge, MA",
+			"links": [
+				"https://mitalignment.notion.site/MopMan-Documentation-9bbc80b1f07744458712211f4817dfc1?pvs=74",
+				"https://mitalignment.notion.site/Resources-for-AIS-University-Groups-8006446beb6b45b6be3052901ac93ff7?pvs=74",
+				"https://github.com/GatlenCulp/gatpack"
+			]
+		},
+		{
+			"name": "Stanford Existential Risks Initiative & MIT Algorithmic Alignment Group",
+			"position": "Machine Learning Researcher",
+			"url": "https://seri.stanford.edu/",
+			"startDate": "2022-06",
+			"endDate": "2022-10",
+			"summary": "Developed RL fine-tuning technique for GPT-2 to autonomously identify diverse prompts resulting in harmful model outputs (violence, disinformation, etc.). Built evaluation pipelines and created survey resulting in the CommonClaim dataset of 20,000 boolean statements. Paper - \"Explore, Establish, Exploit- Red Teaming Language Models from Scratch\".",
+			"highlights": [
+				"Developed RL fine-tuning technique for GPT-2 to autonomously identify diverse prompts resulting in harmful model outputs (violence, disinformation, etc.)",
+				"Trained models, built evaluation pipeline, and created survey resulting in the CommonClaim dataset of 20,000 boolean statements",
+				"Published research paper \"Explore, Establish, Exploit: Red Teaming Language Models from Scratch\""
+			],
+			"location": "Berkeley, CA"
+		},
+		{
+			"name": "MIT's Civic Data Design Lab (CDDL)",
+			"position": "Full Stack Web Developer",
+			"url": "https://civicdatadesignlab.mit.edu/",
+			"startDate": "2022-05",
+			"endDate": "2022-06",
+			"summary": "Finalized UN Heritage Website and WhatsApp interface in under three weeks. Implemented contribution web-form using React, SASS, REST API, and Node. Created WhatsApp informational messaging interface with Twilio. Developed image compression script to improve MongoDB load times.",
+			"highlights": [
+				"Delivered a full-stack web platform and WhatsApp interface in under three weeks",
+				"Implemented contribution form web page with React, SASS, REST API, and Node",
+				"Created WhatsApp informational messaging interface with Twilio",
+				"Developed script to compress image sizes on MongoDB"
+			],
+			"location": "Cambridge, MA"
+		},
+		{
+			"name": "Effective Altruism MIT",
+			"position": "Executive Officer",
+			"startDate": "2021-12",
+			"endDate": "2022-05",
+			"summary": "",
+			"highlights": [
+				"Connected students with impactful careers and raised awareness on neglected global issues",
+				"Gave presentations, managed office, and executed educational and philosophical programs",
+				"Responsible for four to twelve significantly altered career plans"
+			],
+			"location": "Cambridge, MA"
+		},
+		{
+			"name": "Culp Computer Services LLC",
+			"position": "Founder & Tech Care Specialist",
+			"url": "http://facebook.com/CulpComputerServices/",
+			"startDate": "2020-06",
+			"endDate": "2021-08",
+			"summary": "",
+			"highlights": [
+				"Founded a small-scale business offering personal computer solutions from home theater to computer repair",
+				"Provided specialty care and service to around two dozen clients",
+				"Imaged ~30 laptops, recovered files, and fixed various devices"
+			],
+			"location": "Sarasota, FL"
+		},
+		{
+			"name": "Jungle Robotics FRC Team 3627",
+			"position": "Manager, Assistant Manager, & Software Manager",
+			"startDate": "2017-09",
+			"endDate": "2021-08",
+			"summary": "",
+			"highlights": [
+				"Led three junior programmers in coding a 125lb robot for competition",
+				"Oversaw administration of the 20-person team including fundraising, workshops, marketing, CAD, and construction of the robot",
+				"Doubled team membership and taught STEM through local youth programs"
+			],
+			"location": "Sarasota, FL"
+		}
+	],
+	"education": [
+		{
+			"institution": "Massachusetts Institute of Technology",
+			"area": "Computer Science with a concentration in AI & Decision Making",
+			"studyType": "BS",
+			"startDate": "2021-09",
+			"endDate": "2025-12",
+			"score": "",
+			"courses": [],
+			"location": "Cambridge, MA"
+		}
+	],
+	"skills": [
+		{
+			"name": "Programming Languages",
+			"level": "Advanced",
+			"keywords": [
+				"Python",
+				"TypeScript",
+				"JavaScript",
+				"SQL",
+				"Rust",
+				"C++",
+				"Java",
+				"Go",
+				"Bash",
+				"HTML/CSS"
+			]
+		},
+		{
+			"name": "Frameworks & Tools",
+			"level": "Advanced",
+			"keywords": [
+				"React",
+				"Next.js",
+				"Django",
+				"FastAPI",
+				"Node.js",
+				"Express",
+				"Docker",
+				"Git",
+				"AWS",
+				"PostgreSQL",
+				"MongoDB",
+				"Redis",
+				"GraphQL",
+				"REST APIs"
+			]
+		},
+		{
+			"name": "Machine Learning",
+			"level": "Advanced",
+			"keywords": [
+				"PyTorch",
+				"TensorFlow",
+				"Scikit-learn",
+				"Pandas",
+				"NumPy",
+				"Matplotlib",
+				"Seaborn",
+				"Jupyter",
+				"NetworkX",
+				"LangChain",
+				"Transformers"
+			]
+		},
+		{
+			"name": "DevOps & Cloud",
+			"level": "Advanced",
+			"keywords": [
+				"CI/CD",
+				"GitHub Actions",
+				"AWS",
+				"Docker",
+				"Kubernetes",
+				"Terraform",
+				"Linux",
+				"Nginx",
+				"Apache"
+			]
+		}
+	],
+	"certificates": [
+		{
+			"name": "AWS Certified Cloud Practitioner",
+			"date": "2023-12",
+			"issuer": "Amazon Web Services",
+			"url": "https://www.credly.com/badges/83bd3cf9-7488-4954-97bf-e3575973ce2d/public_url"
+		},
+		{
+			"name": "Autodesk Certified User - Inventor",
+			"issuer": "Autodesk"
+		},
+		{
+			"name": "OSHA 10-Hour General Industry",
+			"date": "2020-02",
+			"issuer": "OSHA"
+		}
+	],
+	"awards": [
+		{
+			"title": "State-Level Competitive Programming Awards",
+			"date": "2019",
+			"awarder": "TSA",
+			"url": "https://floridatsa.org/wp-content/uploads/2019/03/2019-Awards-Report.pdf"
+		},
+		{
+			"title": "Meritorious Award",
+			"date": "",
+			"awarder": "HiMCM",
+			"url": "https://www.contest.comap.com/highschool/contests/himcm/instructions.html"
+		}
+	],
+	"projects": [
+		{
+			"name": "GatPack",
+			"description": "Python package for automating common tasks in AI safety research and operations. Features include Notion API integration, email automation, and data processing utilities.",
+			"highlights": [
+				"Developed comprehensive Python package for AI safety research automation",
+				"Implemented Notion API integration for database management",
+				"Created email automation tools for bulk communications",
+				"Built data processing utilities for research workflows"
+			],
+			"keywords": [
+				"Python",
+				"Notion API",
+				"Automation",
+				"Package Development"
+			],
+			"url": "https://github.com/GatlenCulp/gatpack"
+		},
+		{
+			"name": "MopMan",
+			"description": "Operations management system built with Notion API integration. Automates task tracking, resource allocation, and communications across multiple AI safety organizations.",
+			"highlights": [
+				"Built operations management system with Notion API",
+				"Automated task tracking and resource allocation",
+				"Streamlined communications across organizations",
+				"Reduced manual operations work by 7+ hours/week"
+			],
+			"keywords": [
+				"Python",
+				"Notion API",
+				"Automation",
+				"Operations"
+			],
+			"url": "https://mitalignment.notion.site/MopMan-Documentation-9bbc80b1f07744458712211f4817dfc1"
+		},
+		{
+			"name": "Explore Establish Exploit",
+			"url": "https://arxiv.org/abs/2306.09442"
+		},
+		{
+			"name": "Targeted Phone-line Attacks Demo at CAIP's Congressional Exhibition",
+			"description": "",
+			"highlights": [
+			],
+			"keywords": [
+				"Python"
+			],
+			"url": "https://aialignment.mit.edu/initiatives/caip-exhibition/"
+		},
+		{
+			"name": "Transformative AI",
+			"description": "Operations management system built with Notion API integration. Automates task tracking, resource allocation, and communications across multiple AI safety organizations.",
+			"keywords": [
+				"Python",
+				"Notion API",
+				"Automation",
+				"Operations"
+			],
+			"url": "http://gatlen.blog/ai/transformative-ai"
+		},
+		{
+			"name": "Vivaria CLI",
+			"description": "Command-line interface and project templates for Vivaria, an AI evaluation platform. Includes installers, documentation, and testing infrastructure.",
+			"highlights": [
+				"Developed CLI tools and project templates",
+				"Created installation automation",
+				"Enhanced documentation and testing",
+				"Improved developer experience"
+			],
+			"keywords": [
+				"Python",
+				"CLI",
+				"DevOps",
+				"Documentation"
+			],
+			"url": "https://github.com/GatlenCulp/homebrew-vivaria"
+		},
+		{
+			"name": "MantisAI Visualization",
+			"description": "NetworkX-based graph visualization system for text analysis platform. Includes interactive features and integration with Django backend.",
+			"highlights": [
+				"Built graph visualization system",
+				"Integrated with Django backend",
+				"Implemented interactive features",
+				"Optimized performance"
+			],
+			"keywords": [
+				"Python",
+				"NetworkX",
+				"Django",
+				"Visualization"
+			],
+			"url": "https://home.withmantis.com"
+		}
+	],
+	"languages": [
+		{
+			"language": "English",
+			"fluency": "Native speaker"
+		}
+	],
+	"interests": [],
+	"references": [],
+	"publications": [],
+	"volunteer": [],
+	"test_scores": [
+		{
+			"name": "SAT",
+			"score": "1520/1600",
+			"date": "2020"
+		},
+		{
+			"name": "ACT",
+			"score": "34/36",
+			"date": "2020"
+		},
+		{
+			"name": "SAT Subject Test - Math Level 2",
+			"score": "800/800",
+			"date": "2020"
+		},
+		{
+			"name": "SAT Subject Test - Physics",
+			"score": "800/800",
+			"date": "2020"
+		}
+	],
+	"extracurricular_activities": [
+		{
+			"name": "Pine View Support Group",
+			"description": "Optimized 300+ students' studying experience by pooling a network of students and school resources"
+		}
+	],
+	"meta": {
+		"version": "v1.0.0",
+		"lastModified": "2025-04-05"
+	}
+}

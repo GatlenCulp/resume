@@ -48,7 +48,7 @@ rendercv render resume/Gatlen_Culp_CV.yaml --watch \
 Using jsonresume (not to parity, use RenderCV above)
 
 ```bash
-cd resume/json && \
+cd json-resume && \
 npx resumed render resume.json \
 --theme jsonresume-theme-even
 ```
@@ -63,3 +63,10 @@ Typst is pretty cool!!! Uncertain if it is more configurable than LaTeX or have 
 ### 04.02 `npm run` and `npx`
 
 `npm run` is for running `package.json` scripts, `npx` runs a package directly.
+
+---
+
+## Things to potentially add (if not already there)
+
+- [ ] METR SWE-Agent Integration and UK-AISI Inspect
+- [ ] METR Help with an early evaluation of DeepSeek (minimal, sad.)
