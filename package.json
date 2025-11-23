@@ -1,7 +1,7 @@
 {
 	"dependencies": {
-		"jsonresume-theme-even": "^0.23.0",
-		"resumed": "^4.1.0"
+		"jsonresume-theme-even": "^0.26.0",
+		"resumed": "^6.1.0"
 	},
 	"scripts": {
 		"resume:init": "resumed init",

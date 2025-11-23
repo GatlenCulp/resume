@@ -44,6 +44,21 @@ cv:
         emoji_icon: 🏫
         fa_icon: university
     experience:
+      - company: "[ERA](https://erafellowship.org/)"
+        position: AI Governance Research Fellow
+        start_date: 2025-06
+        end_date: 2025-08
+        location: Cambridge, UK
+        links:
+          # - "[Automated Authority: Safeguarding State Power from Future Influence](https://docs.google.com/document/d/1QxhIuPu1J3XE2ERwCdaYQBzcUQksM3lzd5j69zsSA7o/edit?tab=t.fm02ipln4l1c#heading=h.yt8mh4gegk22)"
+          - "[AI State Entrenchment (WIP)](https://docs.google.com/document/d/1QxhIuPu1J3XE2ERwCdaYQBzcUQksM3lzd5j69zsSA7o/edit?tab=t.fm02ipln4l1c#heading=h.yt8mh4gegk22)"
+          # - "[Cursory Analysis of LLMs in the US Gov (July 2025)](https://www.lesswrong.com/posts/Lojk2pMJhHrmANag3/cursory-analysis-of-llms-in-the-us-gov-july-2025)"
+          - "[Analysis of LLMs in Gov](https://www.lesswrong.com/posts/Lojk2pMJhHrmANag3/cursory-analysis-of-llms-in-the-us-gov-july-2025)"
+          # - "[Mathematical Foundations for Power Analysis: Dahlian Power, Power-Preference Connection, Absolute-vs-Relative Power](https://www.lesswrong.com/posts/3up6f8y9wccqh7hZt/gatlen-culp-s-shortform?commentId=L7expsrMkwrLG6AjB)"
+          - "[Math for Power Analysis (Draft)](https://www.lesswrong.com/posts/3up6f8y9wccqh7hZt/gatlen-culp-s-shortform?commentId=L7expsrMkwrLG6AjB)"
+        emoji_icon: 🏛️
+        fa_icon: building-columns
+        summary: "Conducted independent research on the intersection between AI, government, and power.Core work examined how AI systems can entrench existing state power and resist institutional reform. Additional projects analyzed current LLM deployment in government and developed mathematical frameworks for power modeling."
       - company: "[Model Evaluation and Threat Research (METR)](https://metr.org/)"
         position: AI Evaluations & Software Engineering Contractor
         start_date: 2024-09
@@ -212,16 +227,16 @@ cv:
         fa_icons:
           - cloud
           - certificate
-      - label: Academic & Technical Awards
-        details: "[State-Level Competitive Programming Awards](https://floridatsa.org/wp-content/uploads/2019/03/2019-Awards-Report.pdf) (TSA), '[Meritorious](https://www.contest.comap.com/highschool/contests/himcm/instructions.html#:~:text=COMAP'S%20High%20School%20Mathematical%20Contest,problem%20solving%2C%20and%20writing%20skills)' Award (HiMCM), [TryHackMe Badges and Experience](https://tryhackme.com/p/GatlenCulp)"
-        emoji_icons:
-          - 🏆
-          - 🔐
-        fa_icons:
-          - trophy
-          - lock
+      # - label: Academic & Technical Awards
+      #   details: "[State-Level Competitive Programming Awards](https://floridatsa.org/wp-content/uploads/2019/03/2019-Awards-Report.pdf) (TSA), '[Meritorious](https://www.contest.comap.com/highschool/contests/himcm/instructions.html#:~:text=COMAP'S%20High%20School%20Mathematical%20Contest,problem%20solving%2C%20and%20writing%20skills)' Award (HiMCM), [TryHackMe Badges and Experience](https://tryhackme.com/p/GatlenCulp)"
+      #   emoji_icons:
+      #     - 🏆
+      #     - 🔐
+      #   fa_icons:
+      #     - trophy
+      #     - lock
       - label: Notable Projects
-        details: "[OpenGesture](https://www.linkedin.com/feed/update/urn:li:activity:6697359801967607808/) - OpenCV app for custom keyboard/mouse inputs, [Transformative AI](https://drive.google.com/file/d/1WwNgYYWfpA8-xY6De4dTSH_6tmojpW30/view?usp=sharing) - Technical article on AI trajectory and impacts, [Personal Blog](http://gatlen.blog) - Containing various notes and thoughts, [GOTem](https://github.com/GatlenCulp/gatlens-opinionated-template) - Cutting-edge, opinionated, and ambitious project builder for power users and researchers."
+        details: "[Linear Embedding Alignment](https://gatlen.me/embedding_translation/) -- 6-day research sprint measuring similarities between text embedding model representations ⋅ [OpenGesture](https://www.linkedin.com/feed/update/urn:li:activity:6697359801967607808/) -- OpenCV app for custom keyboard/mouse inputs ⋅ [Transformative AI](https://drive.google.com/file/d/1WwNgYYWfpA8-xY6De4dTSH_6tmojpW30/view?usp=sharing) -- Technical article on AI trajectory and impacts ⋅ [Personal Blog](http://gatlen.blog) -- Public thought pieces ⋅ [GOTem](https://github.com/GatlenCulp/gatlens-opinionated-template) -- Dynamic python project template for researchers, engineers, and students"
         emoji_icons:
           - 👌
           - 🌐
@@ -237,7 +252,117 @@ cv:
     # extracurricular_activities:
     #   - bullet: Pine View Support Group --- Optimized 300+ students' studying experience by pooling a network of students and school resources
 
+design:
+  theme: gatlentheme # ignore
+  page:
+    size: us-letter
+    top_margin: 1.3cm
+    bottom_margin: 1.3cm
+    left_margin: 1.3cm
+    right_margin: 1.3cm
+    show_page_numbering: false
+    show_last_updated_date: true
+  colors:
+    text: black
+    name: "#483D8B"
+    connections: "#555555"
+    section_titles: "#483D8B"
+    links: "#483D8B"
+    last_updated_date_and_page_numbering: grey
+  text:
+    font_family: Source Sans 3
+    font_size: 11pt
+    leading: 0.5em
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: false
+    use_external_link_icon: false
+  header:
+    name_font_family: Poppins
+    name_font_size: 20pt
+    name_bold: true
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.3cm
+    vertical_space_between_connections_and_first_section: 0.6cm
+    horizontal_space_between_connections: 0.5cm
+    connections_font_family: Poppins
+    separator_between_connections: ""
+    use_icons_for_connections: true
+    alignment: left
+  section_titles:
+    type: with-parial-line # NOT A TYPO
+    font_family: Poppins
+    font_size: 1.2em
+    bold: true
+    small_caps: false
+    line_thickness: 5pt
+    vertical_space_above: 0.65cm
+    vertical_space_below: 0.5cm
+  entries:
+    date_and_location_width: 4.15cm
+    left_and_right_margin: 0.2cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 1.3em
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: false
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: •
+    top_margin: 0.25cm
+    left_margin: 0.3cm
+    vertical_space_between_highlights: 0.25cm
+    horizontal_space_between_bullet_and_highlight: 0.4em
+    summary_left_margin: 0cm
+  entry_types:
+    one_line_entry:
+      template: "**LABEL:** DETAILS"
+    education_entry:
+      main_column_first_row_template: |-
+        **INSTITUTION**
+        AREA
+      degree_column_template: "**DEGREE**"
+      degree_column_width: 1cm
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        **DATE**
+        LOCATION
+    normal_entry:
+      main_column_first_row_template: "**NAME**"
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        **DATE**
+        LOCATION
+    experience_entry:
+      main_column_first_row_template: |-
+        **POSITION**
+        COMPANY
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        **DATE**
+        LOCATION
+    publication_entry:
+      main_column_first_row_template: "**TITLE**"
+      main_column_second_row_template: |-
+        AUTHORS
+        URL (JOURNAL)
+      main_column_second_row_without_journal_template: |-
+        AUTHORS
+        URL
+      main_column_second_row_without_url_template: |-
+        AUTHORS
+        JOURNAL
+      date_and_location_column_template: DATE
+
+
 rendercv_settings:
-  date: "2025-04-05"
+  date: "2025-09-26"
   render_command: null
   bold_keywords: []

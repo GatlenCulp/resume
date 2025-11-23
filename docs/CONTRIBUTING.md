@@ -1,10 +1,5 @@
 # gatlen-resume
 
-![Uses the Cookiecutter Data Science project template, GOTem style](https://img.shields.io/badge/GOTem-Project%20Instance-328F97?logo=cookiecutter) [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
-
-<!-- [![tests](https://github.com/GatlenCulp/gatlen-resume/actions/workflows/tests.yml/badge.svg)](https://github.com/GatlenCulp/gatlen-resume/actions/workflows/tests.yml) -->
-<!-- ![GitHub stars](https://img.shields.io/github/stars/GatlenCulp/gatlen-resume?style=social) -->
-
 ## 01 About
 
 This is Gatlen's personal resume in a variety of formats (md, markdown, json (json-resume), etc.), using a single source of truth I can utilize elsewhere.
@@ -33,6 +28,7 @@ source ./.venv/bin/activate
 For using json-resume (npm package):
 ```bash
 npm install resumed jsonresume-theme-even
+# Or bun install resumed jsonresume-theme-even
 ```
 
 ### 03.02 Build Typst Resume
@@ -52,6 +48,8 @@ cd json-resume && \
 npx resumed render resume.json \
 --theme jsonresume-theme-even
 ```
+
+More about editing RenderCV [here](https://docs.rendercv.com/)
 
 
 ## 04 Random Notes

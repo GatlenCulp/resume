@@ -3,7 +3,7 @@
 
 #let name = "Gatlen Culp"
 #let locale-catalog-page-numbering-style = context { "Gatlen Culp - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "Last updated in Apr 2025"
+#let locale-catalog-last-updated-date-style = "Last updated in Sept 2025"
 #let locale-catalog-language = "en"
 #let design-page-size = "us-letter"
 #let design-section-titles-font-size = 1.2em
@@ -23,7 +23,7 @@
 #let design-section-titles-small-caps = false
 #let design-links-use-external-link-icon = false
 #let design-text-font-size = 11pt
-#let design-text-leading = 0.6em
+#let design-text-leading = 0.5em
 #let design-text-font-family = "Source Sans 3"
 #let design-text-alignment = "justified"
 #let design-text-date-and-location-column-alignment = right
@@ -34,7 +34,7 @@
 #let design-header-name-bold = true
 #let design-header-connections-font-family = "Poppins"
 #let design-header-vertical-space-between-name-and-connections = 0.3cm
-#let design-header-vertical-space-between-connections-and-first-section = 0.8cm
+#let design-header-vertical-space-between-connections-and-first-section = 0.6cm
 #let design-header-use-icons-for-connections = true
 #let design-header-horizontal-space-between-connections = 0.5cm
 #let design-header-separator-between-connections = ""
@@ -474,7 +474,7 @@
 Computer Science with a concentration in AI & Decision Making
   ],
   right-content: [
-    #strong[Sept 2021 -- Dec 2025]
+    #strong[Sept 2021 – Dec 2025]
 
 Cambridge, MA
   ],
@@ -488,6 +488,29 @@ Cambridge, MA
 #two-col-entry(
   left-content: [
     #box(
+      fa-icon("building-columns", size: 0.7em, solid: true),
+      baseline: -10%,
+    )
+    #strong[AI Governance Research Fellow]
+
+#link("https://erafellowship.org/")[ERA]
+ ⋅ #link("https://docs.google.com/document/d/1QxhIuPu1J3XE2ERwCdaYQBzcUQksM3lzd5j69zsSA7o/edit?tab=t.fm02ipln4l1c#heading=h.yt8mh4gegk22")[AI State Entrenchment \(WIP\)]  ⋅ #link("https://www.lesswrong.com/posts/Lojk2pMJhHrmANag3/cursory-analysis-of-llms-in-the-us-gov-july-2025")[Analysis of LLMs in Gov]  ⋅ #link("https://www.lesswrong.com/posts/3up6f8y9wccqh7hZt/gatlen-culp-s-shortform?commentId=L7expsrMkwrLG6AjB")[Math for Power Analysis \(Draft\)]   ],
+  right-content: [
+    #strong[June 2025 – Aug 2025]
+
+Cambridge, UK
+  ],
+)
+#one-col-entry(
+  content: [
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Conducted independent research on the intersection between AI, government, and power.Core work examined how AI systems can entrench existing state power and resist institutional reform. Additional projects analyzed current LLM deployment in government and developed mathematical frameworks for power modeling.])], column-gutter: 0cm)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #box(
       fa-icon("ruler-combined", size: 0.7em, solid: true),
       baseline: -10%,
     )
@@ -496,7 +519,7 @@ Cambridge, MA
 #link("https://metr.org/")[Model Evaluation and Threat Research \(METR\)]
  ⋅ #link("https://vivaria.metr.org/")[Vivaria]  ⋅ #link("https://github.com/GatlenCulp/homebrew-vivaria/")[Homebrew]  ⋅ #link("https://github.com/METR/vivaria/pull/710")[Eval Templates]   ],
   right-content: [
-    #strong[Sept 2024 -- present]
+    #strong[Sept 2024 – present]
 
 Remote
   ],
@@ -519,7 +542,7 @@ Remote
 #link("https://compbio.mit.edu/")[MIT Computational Biology Lab]
  ⋅ #link("https://home.withmantis.com/")[MantisAI Website]   ],
   right-content: [
-    #strong[June 2024 -- Aug 2024]
+    #strong[June 2024 – Aug 2024]
 
 Cambridge, MA
   ],
@@ -542,7 +565,7 @@ Cambridge, MA
 #link("https://aialignment.mit.edu")[MIT AI Alignment] \(+ #link("https://haist.ai/")[Harvard AI Safety Team]\)
  ⋅ #link("https://mitalignment.notion.site/MopMan-Documentation-9bbc80b1f07744458712211f4817dfc1?pvs=74")[MopMan]  ⋅ #link("https://mitalignment.notion.site/Resources-for-AIS-University-Groups-8006446beb6b45b6be3052901ac93ff7?pvs=74")[Public Resources]  ⋅ #link("https://github.com/GatlenCulp/gatpack")[GatPack]   ],
   right-content: [
-    #strong[Feb 2023 -- Nov 2024]
+    #strong[Feb 2023 – Nov 2024]
 
 Cambridge, MA
   ],
@@ -565,7 +588,7 @@ Cambridge, MA
 #link("https://seri.stanford.edu/")[Stanford Existential Risks Initiative] & #link("https://github.com/Algorithmic-Alignment-Lab/CommonClaim")[MIT Algorithmic Alignment Group]
  ⋅ #link("https://github.com/Algorithmic-Alignment-Lab/CommonClaim")[CommonClaim]   ],
   right-content: [
-    #strong[June 2022 -- Oct 2022]
+    #strong[June 2022 – Oct 2022]
 
 Berkeley, CA
   ],
@@ -588,7 +611,7 @@ Berkeley, CA
 #link("https://civicdatadesignlab.mit.edu/")[MIT's Civic Data Design Lab \(CDDL\)]
   ],
   right-content: [
-    #strong[May 2022 -- June 2022]
+    #strong[May 2022 – June 2022]
 
 Cambridge, MA
   ],
@@ -609,11 +632,7 @@ Cambridge, MA
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Academic & Technical Awards:] #link("https://floridatsa.org/wp-content/uploads/2019/03/2019-Awards-Report.pdf")[State-Level Competitive Programming Awards] \(TSA\), '#link("https://www.contest.comap.com/highschool/contests/himcm/instructions.html#:~:text=COMAP'S%20High%20School%20Mathematical%20Contest,problem%20solving%2C%20and%20writing%20skills")[Meritorious]' Award \(HiMCM\), #link("https://tryhackme.com/p/GatlenCulp")[TryHackMe Badges and Experience]]
-)
-#v(design-entries-vertical-space-between-entries)
-#one-col-entry(
-  content: [#strong[Notable Projects:] #link("https://www.linkedin.com/feed/update/urn:li:activity:6697359801967607808/")[OpenGesture] - OpenCV app for custom keyboard\/mouse inputs, #link("https://drive.google.com/file/d/1WwNgYYWfpA8-xY6De4dTSH_6tmojpW30/view?usp=sharing")[Transformative AI] - Technical article on AI trajectory and impacts, #link("http://gatlen.blog")[Personal Blog] - Containing various notes and thoughts, #link("https://github.com/GatlenCulp/gatlens-opinionated-template")[GOTem] - Cutting-edge, opinionated, and ambitious project builder for power users and researchers]
+  content: [#strong[Notable Projects:] #link("https://gatlen.me/embedding_translation/")[Linear Embedding Alignment] -- 6-day research sprint measuring similarities between text embedding model representations ⋅ #link("https://www.linkedin.com/feed/update/urn:li:activity:6697359801967607808/")[OpenGesture] -- OpenCV app for custom keyboard\/mouse inputs ⋅ #link("https://drive.google.com/file/d/1WwNgYYWfpA8-xY6De4dTSH_6tmojpW30/view?usp=sharing")[Transformative AI] -- Technical article on AI trajectory and impacts ⋅ #link("http://gatlen.blog")[Personal Blog] -- Public thought pieces ⋅ #link("https://github.com/GatlenCulp/gatlens-opinionated-template")[GOTem] -- Dynamic python project template for researchers, engineers, and students]
 )
 
 
